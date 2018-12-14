@@ -1,0 +1,5634 @@
+Number of fraudulent transactions  4097
+***********Logistic Regression**********
+**************************************
+Iteration number   1
+Class weights  {0: 1, 1: 1}
+Performance on validation data - Confusion matrix
+[[79277    45]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998739 0.93161094]
+Recall [0.99943269 0.99837134]
+F-score [0.99970996 0.96383648]
+Support [79322   614]
+**************************************
+Iteration number   2
+Class weights  {0: 1, 1: 2}
+Performance on validation data - Confusion matrix
+[[79264    58]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998738 0.91356185]
+Recall [0.9992688  0.99837134]
+F-score [0.99962796 0.9540856 ]
+Support [79322   614]
+**************************************
+Iteration number   3
+Class weights  {0: 1, 1: 3}
+Performance on validation data - Confusion matrix
+[[79247    75]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998738 0.89098837]
+Recall [0.99905449 0.99837134]
+F-score [0.99952072 0.94162826]
+Support [79322   614]
+**************************************
+Iteration number   4
+Class weights  {0: 1, 1: 4}
+Performance on validation data - Confusion matrix
+[[79230    92]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998738 0.86950355]
+Recall [0.99884017 0.99837134]
+F-score [0.99941345 0.92949204]
+Support [79322   614]
+**************************************
+Iteration number   5
+Class weights  {0: 1, 1: 5}
+Performance on validation data - Confusion matrix
+[[79220   102]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998738 0.85734266]
+Recall [0.9987141  0.99837134]
+F-score [0.99935033 0.92249812]
+Support [79322   614]
+**************************************
+Iteration number   6
+Class weights  {0: 1, 1: 6}
+Performance on validation data - Confusion matrix
+[[79214   108]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998738 0.85020804]
+Recall [0.99863846 0.99837134]
+F-score [0.99931246 0.91835206]
+Support [79322   614]
+**************************************
+Iteration number   7
+Class weights  {0: 1, 1: 7}
+Performance on validation data - Confusion matrix
+[[79207   115]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998738 0.84203297]
+Recall [0.99855021 0.99837134]
+F-score [0.99926828 0.91356185]
+Support [79322   614]
+**************************************
+Iteration number   8
+Class weights  {0: 1, 1: 8}
+Performance on validation data - Confusion matrix
+[[79197   125]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.83062331]
+Recall [0.99842414 0.99837134]
+F-score [0.99920515 0.90680473]
+Support [79322   614]
+**************************************
+Iteration number   9
+Class weights  {0: 1, 1: 9}
+Performance on validation data - Confusion matrix
+[[79192   130]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.82503365]
+Recall [0.99836111 0.99837134]
+F-score [0.99917358 0.90346352]
+Support [79322   614]
+**************************************
+Iteration number   10
+Class weights  {0: 1, 1: 10}
+Performance on validation data - Confusion matrix
+[[79185   137]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.81733333]
+Recall [0.99827286 0.99837134]
+F-score [0.99912938 0.89882698]
+Support [79322   614]
+**************************************
+Iteration number   11
+Class weights  {0: 1, 1: 11}
+Performance on validation data - Confusion matrix
+[[79181   141]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.81299735]
+Recall [0.99822244 0.99837134]
+F-score [0.99910412 0.89619883]
+Support [79322   614]
+**************************************
+Iteration number   12
+Class weights  {0: 1, 1: 12}
+Performance on validation data - Confusion matrix
+[[79179   143]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.81084656]
+Recall [0.99819722 0.99837134]
+F-score [0.99909149 0.89489051]
+Support [79322   614]
+**************************************
+Iteration number   13
+Class weights  {0: 1, 1: 13}
+Performance on validation data - Confusion matrix
+[[79178   144]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.80977543]
+Recall [0.99818461 0.99837134]
+F-score [0.99908518 0.89423778]
+Support [79322   614]
+**************************************
+Iteration number   14
+Class weights  {0: 1, 1: 14}
+Performance on validation data - Confusion matrix
+[[79177   145]
+ [    0   614]]
+Precision, Recall, F-score, Support  on validation data
+Precision [1.         0.80895916]
+Recall [0.99817201 1.        ]
+F-score [0.99908517 0.89439184]
+Support [79322   614]
+**************************************
+Iteration number   15
+Class weights  {0: 1, 1: 15}
+Performance on validation data - Confusion matrix
+[[79178   144]
+ [    0   614]]
+Precision, Recall, F-score, Support  on validation data
+Precision [1.         0.81002639]
+Recall [0.99818461 1.        ]
+F-score [0.99909148 0.89504373]
+Support [79322   614]
+**************************************
+Iteration number   16
+Class weights  {0: 1, 1: 16}
+Performance on validation data - Confusion matrix
+[[79176   146]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.80764163]
+Recall [0.9981594  0.99837134]
+F-score [0.99907255 0.89293518]
+Support [79322   614]
+**************************************
+Iteration number   17
+Class weights  {0: 1, 1: 17}
+Performance on validation data - Confusion matrix
+[[79171   151]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.80235602]
+Recall [0.99809637 0.99837134]
+F-score [0.99904097 0.88969521]
+Support [79322   614]
+**************************************
+Iteration number   18
+Class weights  {0: 1, 1: 18}
+Performance on validation data - Confusion matrix
+[[79170   152]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.80130719]
+Recall [0.99808376 0.99837134]
+F-score [0.99903466 0.88905004]
+Support [79322   614]
+**************************************
+Iteration number   19
+Class weights  {0: 1, 1: 19}
+Performance on validation data - Confusion matrix
+[[79169   153]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.8002611 ]
+Recall [0.99807115 0.99837134]
+F-score [0.99902834 0.8884058 ]
+Support [79322   614]
+**************************************
+Iteration number   20
+Class weights  {0: 1, 1: 20}
+Performance on validation data - Confusion matrix
+[[79166   156]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.79713914]
+Recall [0.99803333 0.99837134]
+F-score [0.99900939 0.88647867]
+Support [79322   614]
+**************************************
+Iteration number   21
+Class weights  {0: 1, 1: 21}
+Performance on validation data - Confusion matrix
+[[79162   160]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.79301423]
+Recall [0.99798291 0.99837134]
+F-score [0.99898413 0.88392213]
+Support [79322   614]
+**************************************
+Iteration number   22
+Class weights  {0: 1, 1: 22}
+Performance on validation data - Confusion matrix
+[[79160   162]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.79096774]
+Recall [0.99795769 0.99837134]
+F-score [0.9989715  0.88264939]
+Support [79322   614]
+**************************************
+Iteration number   23
+Class weights  {0: 1, 1: 23}
+Performance on validation data - Confusion matrix
+[[79156   166]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.78690629]
+Recall [0.99790726 0.99837134]
+F-score [0.99894623 0.88011486]
+Support [79322   614]
+**************************************
+Iteration number   24
+Class weights  {0: 1, 1: 24}
+Performance on validation data - Confusion matrix
+[[79155   167]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.78589744]
+Recall [0.99789466 0.99837134]
+F-score [0.99893992 0.8794835 ]
+Support [79322   614]
+**************************************
+Iteration number   25
+Class weights  {0: 1, 1: 25}
+Performance on validation data - Confusion matrix
+[[79153   169]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.78388747]
+Recall [0.99786944 0.99837134]
+F-score [0.99892728 0.8782235 ]
+Support [79322   614]
+**************************************
+Iteration number   26
+Class weights  {0: 1, 1: 26}
+Performance on validation data - Confusion matrix
+[[79152   170]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.78288633]
+Recall [0.99785684 0.99837134]
+F-score [0.99892097 0.87759485]
+Support [79322   614]
+**************************************
+Iteration number   27
+Class weights  {0: 1, 1: 27}
+Performance on validation data - Confusion matrix
+[[79150   172]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.78089172]
+Recall [0.99783162 0.99837134]
+F-score [0.99890833 0.87634024]
+Support [79322   614]
+**************************************
+Iteration number   28
+Class weights  {0: 1, 1: 28}
+Performance on validation data - Confusion matrix
+[[79146   176]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998737 0.77693283]
+Recall [0.9977812  0.99837134]
+F-score [0.99888306 0.87384177]
+Support [79322   614]
+**************************************
+Iteration number   29
+Class weights  {0: 1, 1: 29}
+Performance on validation data - Confusion matrix
+[[79143   179]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.7739899 ]
+Recall [0.99774338 0.99837134]
+F-score [0.99886411 0.87197724]
+Support [79322   614]
+**************************************
+Iteration number   30
+Class weights  {0: 1, 1: 30}
+Performance on validation data - Confusion matrix
+[[79139   183]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.7701005 ]
+Recall [0.99769295 0.99837134]
+F-score [0.99883884 0.86950355]
+Support [79322   614]
+**************************************
+Iteration number   31
+Class weights  {0: 1, 1: 31}
+Performance on validation data - Confusion matrix
+[[79130   192]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.76149068]
+Recall [0.99757949 0.99837134]
+F-score [0.99878197 0.86398872]
+Support [79322   614]
+**************************************
+Iteration number   32
+Class weights  {0: 1, 1: 32}
+Performance on validation data - Confusion matrix
+[[79123   199]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.75492611]
+Recall [0.99749124 0.99837134]
+F-score [0.99873774 0.85974755]
+Support [79322   614]
+**************************************
+Iteration number   33
+Class weights  {0: 1, 1: 33}
+Performance on validation data - Confusion matrix
+[[79120   202]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.75214724]
+Recall [0.99745342 0.99837134]
+F-score [0.99871878 0.85794262]
+Support [79322   614]
+**************************************
+Iteration number   34
+Class weights  {0: 1, 1: 34}
+Performance on validation data - Confusion matrix
+[[79116   206]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.74847375]
+Recall [0.99740299 0.99837134]
+F-score [0.9986935 0.8555478]
+Support [79322   614]
+**************************************
+Iteration number   35
+Class weights  {0: 1, 1: 35}
+Performance on validation data - Confusion matrix
+[[79114   208]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.74665043]
+Recall [0.99737778 0.99837134]
+F-score [0.99868086 0.8543554 ]
+Support [79322   614]
+**************************************
+Iteration number   36
+Class weights  {0: 1, 1: 36}
+Performance on validation data - Confusion matrix
+[[79108   214]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.74123337]
+Recall [0.99730214 0.99837134]
+F-score [0.99864294 0.85079806]
+Support [79322   614]
+**************************************
+Iteration number   37
+Class weights  {0: 1, 1: 37}
+Performance on validation data - Confusion matrix
+[[79101   221]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.73501199]
+Recall [0.99721389 0.99837134]
+F-score [0.9985987  0.84668508]
+Support [79322   614]
+**************************************
+Iteration number   38
+Class weights  {0: 1, 1: 38}
+Performance on validation data - Confusion matrix
+[[79099   223]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.73325359]
+Recall [0.99718867 0.99837134]
+F-score [0.99858605 0.84551724]
+Support [79322   614]
+**************************************
+Iteration number   39
+Class weights  {0: 1, 1: 39}
+Performance on validation data - Confusion matrix
+[[79091   231]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72630332]
+Recall [0.99708782 0.99837134]
+F-score [0.99853548 0.84087791]
+Support [79322   614]
+**************************************
+Iteration number   40
+Class weights  {0: 1, 1: 40}
+Performance on validation data - Confusion matrix
+[[79087   235]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72287736]
+Recall [0.99703739 0.99837134]
+F-score [0.9985102  0.83857729]
+Support [79322   614]
+**************************************
+Iteration number   41
+Class weights  {0: 1, 1: 41}
+Performance on validation data - Confusion matrix
+[[79087   235]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72287736]
+Recall [0.99703739 0.99837134]
+F-score [0.9985102  0.83857729]
+Support [79322   614]
+**************************************
+Iteration number   42
+Class weights  {0: 1, 1: 42}
+Performance on validation data - Confusion matrix
+[[79086   236]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72202591]
+Recall [0.99702479 0.99837134]
+F-score [0.99850387 0.8380041 ]
+Support [79322   614]
+**************************************
+Iteration number   43
+Class weights  {0: 1, 1: 43}
+Performance on validation data - Confusion matrix
+[[79085   237]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72117647]
+Recall [0.99701218 0.99837134]
+F-score [0.99849755 0.83743169]
+Support [79322   614]
+**************************************
+Iteration number   44
+Class weights  {0: 1, 1: 44}
+Performance on validation data - Confusion matrix
+[[79084   238]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72032902]
+Recall [0.99699957 0.99837134]
+F-score [0.99849123 0.83686007]
+Support [79322   614]
+**************************************
+Iteration number   45
+Class weights  {0: 1, 1: 45}
+Performance on validation data - Confusion matrix
+[[79084   238]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998736 0.72032902]
+Recall [0.99699957 0.99837134]
+F-score [0.99849123 0.83686007]
+Support [79322   614]
+**************************************
+Iteration number   46
+Class weights  {0: 1, 1: 46}
+Performance on validation data - Confusion matrix
+[[79055   267]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998735 0.69659091]
+Recall [0.99663397 0.99837134]
+F-score [0.99830785 0.8206158 ]
+Support [79322   614]
+**************************************
+Iteration number   47
+Class weights  {0: 1, 1: 47}
+Performance on validation data - Confusion matrix
+[[78974   348]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998734 0.63787721]
+Recall [0.99561282 0.99837134]
+F-score [0.99779528 0.7784127 ]
+Support [79322   614]
+**************************************
+Iteration number   48
+Class weights  {0: 1, 1: 48}
+Performance on validation data - Confusion matrix
+[[78922   400]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998733 0.60513327]
+Recall [0.99495726 0.99837134]
+F-score [0.99746595 0.75353411]
+Support [79322   614]
+**************************************
+Iteration number   49
+Class weights  {0: 1, 1: 49}
+Performance on validation data - Confusion matrix
+[[78881   441]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998732 0.58159393]
+Recall [0.99444038 0.99837134]
+F-score [0.99720614 0.73501199]
+Support [79322   614]
+**************************************
+Iteration number   50
+Class weights  {0: 1, 1: 50}
+Performance on validation data - Confusion matrix
+[[78847   475]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998732 0.56341912]
+Recall [0.99401175 0.99837134]
+F-score [0.99699058 0.72032902]
+Support [79322   614]
+**************************************
+Iteration number   51
+Class weights  {0: 1, 1: 51}
+Performance on validation data - Confusion matrix
+[[78805   517]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998731 0.54247788]
+Recall [0.99348226 0.99837134]
+F-score [0.99672417 0.70298165]
+Support [79322   614]
+**************************************
+Iteration number   52
+Class weights  {0: 1, 1: 52}
+Performance on validation data - Confusion matrix
+[[78777   545]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998731 0.52936097]
+Recall [0.99312927 0.99837134]
+F-score [0.99654649 0.69187359]
+Support [79322   614]
+**************************************
+Iteration number   53
+Class weights  {0: 1, 1: 53}
+Performance on validation data - Confusion matrix
+[[78760   562]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999873  0.52170213]
+Recall [0.99291495 0.99837134]
+F-score [0.99643858 0.68529905]
+Support [79322   614]
+**************************************
+Iteration number   54
+Class weights  {0: 1, 1: 54}
+Performance on validation data - Confusion matrix
+[[78740   582]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999873  0.51297071]
+Recall [0.99266282 0.99837134]
+F-score [0.9963116 0.6777225]
+Support [79322   614]
+**************************************
+Iteration number   55
+Class weights  {0: 1, 1: 55}
+Performance on validation data - Confusion matrix
+[[78719   603]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999873  0.50411184]
+Recall [0.99239807 0.99837134]
+F-score [0.99617823 0.66994536]
+Support [79322   614]
+**************************************
+Iteration number   56
+Class weights  {0: 1, 1: 56}
+Performance on validation data - Confusion matrix
+[[78702   620]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998729 0.49716139]
+Recall [0.99218376 0.99837134]
+F-score [0.99607024 0.6637791 ]
+Support [79322   614]
+**************************************
+Iteration number   57
+Class weights  {0: 1, 1: 57}
+Performance on validation data - Confusion matrix
+[[78685   637]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998729 0.4904    ]
+Recall [0.99196944 0.99837134]
+F-score [0.99596223 0.65772532]
+Support [79322   614]
+**************************************
+Iteration number   58
+Class weights  {0: 1, 1: 58}
+Performance on validation data - Confusion matrix
+[[78668   654]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998729 0.48382005]
+Recall [0.99175512 0.99837134]
+F-score [0.99585419 0.65178097]
+Support [79322   614]
+**************************************
+Iteration number   59
+Class weights  {0: 1, 1: 59}
+Performance on validation data - Confusion matrix
+[[78654   668]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998729 0.4785324 ]
+Recall [0.99157863 0.99837134]
+F-score [0.99576521 0.6469657 ]
+Support [79322   614]
+**************************************
+Iteration number   60
+Class weights  {0: 1, 1: 60}
+Performance on validation data - Confusion matrix
+[[78643   679]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998728 0.4744582 ]
+Recall [0.99143995 0.99837134]
+F-score [0.99569528 0.6432319 ]
+Support [79322   614]
+**************************************
+Iteration number   61
+Class weights  {0: 1, 1: 61}
+Performance on validation data - Confusion matrix
+[[78630   692]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998728 0.4697318 ]
+Recall [0.99127606 0.99837134]
+F-score [0.99561262 0.63887441]
+Support [79322   614]
+**************************************
+Iteration number   62
+Class weights  {0: 1, 1: 62}
+Performance on validation data - Confusion matrix
+[[78618   704]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998728 0.46545178]
+Recall [0.99112478 0.99837134]
+F-score [0.99553631 0.63490419]
+Support [79322   614]
+**************************************
+Iteration number   63
+Class weights  {0: 1, 1: 63}
+Performance on validation data - Confusion matrix
+[[78610   712]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998728 0.46264151]
+Recall [0.99102393 0.99837134]
+F-score [0.99548543 0.63228468]
+Support [79322   614]
+**************************************
+Iteration number   64
+Class weights  {0: 1, 1: 64}
+Performance on validation data - Confusion matrix
+[[78598   724]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998728 0.45848915]
+Recall [0.99087265 0.99837134]
+F-score [0.9954091  0.62839569]
+Support [79322   614]
+**************************************
+Iteration number   65
+Class weights  {0: 1, 1: 65}
+Performance on validation data - Confusion matrix
+[[78589   733]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998728 0.45542348]
+Recall [0.99075918 0.99837134]
+F-score [0.99535184 0.6255102 ]
+Support [79322   614]
+**************************************
+Iteration number   66
+Class weights  {0: 1, 1: 66}
+Performance on validation data - Confusion matrix
+[[78581   741]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.45273264]
+Recall [0.99065833 0.99837134]
+F-score [0.99530094 0.62296748]
+Support [79322   614]
+**************************************
+Iteration number   67
+Class weights  {0: 1, 1: 67}
+Performance on validation data - Confusion matrix
+[[78572   750]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.44974321]
+Recall [0.99054487 0.99837134]
+F-score [0.99524367 0.62013151]
+Support [79322   614]
+**************************************
+Iteration number   68
+Class weights  {0: 1, 1: 68}
+Performance on validation data - Confusion matrix
+[[78557   765]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.44484761]
+Recall [0.99035577 0.99837134]
+F-score [0.99514821 0.61546185]
+Support [79322   614]
+**************************************
+Iteration number   69
+Class weights  {0: 1, 1: 69}
+Performance on validation data - Confusion matrix
+[[78551   771]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.44291908]
+Recall [0.99028012 0.99837134]
+F-score [0.99511002 0.61361361]
+Support [79322   614]
+**************************************
+Iteration number   70
+Class weights  {0: 1, 1: 70}
+Performance on validation data - Confusion matrix
+[[78547   775]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.44164265]
+Recall [0.9902297  0.99837134]
+F-score [0.99508456 0.61238761]
+Support [79322   614]
+**************************************
+Iteration number   71
+Class weights  {0: 1, 1: 71}
+Performance on validation data - Confusion matrix
+[[78543   779]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.44037356]
+Recall [0.99017927 0.99837134]
+F-score [0.9950591 0.6111665]
+Support [79322   614]
+**************************************
+Iteration number   72
+Class weights  {0: 1, 1: 72}
+Performance on validation data - Confusion matrix
+[[78537   785]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.43848355]
+Recall [0.99010363 0.99837134]
+F-score [0.9950209  0.60934394]
+Support [79322   614]
+**************************************
+Iteration number   73
+Class weights  {0: 1, 1: 73}
+Performance on validation data - Confusion matrix
+[[78536   786]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.43817012]
+Recall [0.99009102 0.99837134]
+F-score [0.99501454 0.60904123]
+Support [79322   614]
+**************************************
+Iteration number   74
+Class weights  {0: 1, 1: 74}
+Performance on validation data - Confusion matrix
+[[78531   791]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.43660969]
+Recall [0.99002799 0.99837134]
+F-score [0.99498271 0.60753221]
+Support [79322   614]
+**************************************
+Iteration number   75
+Class weights  {0: 1, 1: 75}
+Performance on validation data - Confusion matrix
+[[78525   797]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998727 0.43475177]
+Recall [0.98995235 0.99837134]
+F-score [0.9949445  0.60573123]
+Support [79322   614]
+**************************************
+Iteration number   76
+Class weights  {0: 1, 1: 76}
+Performance on validation data - Confusion matrix
+[[78515   807]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.43169014]
+Recall [0.98982628 0.99837134]
+F-score [0.99488083 0.6027532 ]
+Support [79322   614]
+**************************************
+Iteration number   77
+Class weights  {0: 1, 1: 77}
+Performance on validation data - Confusion matrix
+[[78510   812]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.43017544]
+Recall [0.98976324 0.99837134]
+F-score [0.99484899 0.60127513]
+Support [79322   614]
+**************************************
+Iteration number   78
+Class weights  {0: 1, 1: 78}
+Performance on validation data - Confusion matrix
+[[78501   821]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.42747559]
+Recall [0.98964978 0.99837134]
+F-score [0.99479167 0.59863281]
+Support [79322   614]
+**************************************
+Iteration number   79
+Class weights  {0: 1, 1: 79}
+Performance on validation data - Confusion matrix
+[[78495   827]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.42569444]
+Recall [0.98957414 0.99837134]
+F-score [0.99475345 0.59688413]
+Support [79322   614]
+**************************************
+Iteration number   80
+Class weights  {0: 1, 1: 80}
+Performance on validation data - Confusion matrix
+[[78488   834]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.42363511]
+Recall [0.98948589 0.99837134]
+F-score [0.99470886 0.59485687]
+Support [79322   614]
+**************************************
+Iteration number   81
+Class weights  {0: 1, 1: 81}
+Performance on validation data - Confusion matrix
+[[78481   841]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.4215956 ]
+Recall [0.98939765 0.99837134]
+F-score [0.99466427 0.59284333]
+Support [79322   614]
+**************************************
+Iteration number   82
+Class weights  {0: 1, 1: 82}
+Performance on validation data - Confusion matrix
+[[78467   855]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998726 0.41757493]
+Recall [0.98922115 0.99837134]
+F-score [0.99457507 0.58885687]
+Support [79322   614]
+**************************************
+Iteration number   83
+Class weights  {0: 1, 1: 83}
+Performance on validation data - Confusion matrix
+[[78457   865]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.41474966]
+Recall [0.98909508 0.99837134]
+F-score [0.99451134 0.58604207]
+Support [79322   614]
+**************************************
+Iteration number   84
+Class weights  {0: 1, 1: 84}
+Performance on validation data - Confusion matrix
+[[78455   867]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.41418919]
+Recall [0.98906987 0.99837134]
+F-score [0.9944986  0.58548233]
+Support [79322   614]
+**************************************
+Iteration number   85
+Class weights  {0: 1, 1: 85}
+Performance on validation data - Confusion matrix
+[[78452   870]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.41335131]
+Recall [0.98903205 0.99837134]
+F-score [0.99447948 0.58464473]
+Support [79322   614]
+**************************************
+Iteration number   86
+Class weights  {0: 1, 1: 86}
+Performance on validation data - Confusion matrix
+[[78449   873]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.41251682]
+Recall [0.98899423 0.99837134]
+F-score [0.99446036 0.58380952]
+Support [79322   614]
+**************************************
+Iteration number   87
+Class weights  {0: 1, 1: 87}
+Performance on validation data - Confusion matrix
+[[78441   881]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.4103079 ]
+Recall [0.98889337 0.99837134]
+F-score [0.99440937 0.58159393]
+Support [79322   614]
+**************************************
+Iteration number   88
+Class weights  {0: 1, 1: 88}
+Performance on validation data - Confusion matrix
+[[78435   887]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.40866667]
+Recall [0.98881773 0.99837134]
+F-score [0.99437113 0.57994324]
+Support [79322   614]
+**************************************
+Iteration number   89
+Class weights  {0: 1, 1: 89}
+Performance on validation data - Confusion matrix
+[[78427   895]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.40649867]
+Recall [0.98871688 0.99837134]
+F-score [0.99432013 0.57775683]
+Support [79322   614]
+**************************************
+Iteration number   90
+Class weights  {0: 1, 1: 90}
+Performance on validation data - Confusion matrix
+[[78420   902]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.40462046]
+Recall [0.98862863 0.99837134]
+F-score [0.9942755  0.57585721]
+Support [79322   614]
+**************************************
+Iteration number   91
+Class weights  {0: 1, 1: 91}
+Performance on validation data - Confusion matrix
+[[78411   911]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.40223097]
+Recall [0.98851517 0.99837134]
+F-score [0.99421811 0.57343312]
+Support [79322   614]
+**************************************
+Iteration number   92
+Class weights  {0: 1, 1: 92}
+Performance on validation data - Confusion matrix
+[[78403   919]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998725 0.40013055]
+Recall [0.98841431 0.99837134]
+F-score [0.9941671  0.57129543]
+Support [79322   614]
+**************************************
+Iteration number   93
+Class weights  {0: 1, 1: 93}
+Performance on validation data - Confusion matrix
+[[78394   928]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.39779364]
+Recall [0.98830085 0.99837134]
+F-score [0.9941097  0.56890951]
+Support [79322   614]
+**************************************
+Iteration number   94
+Class weights  {0: 1, 1: 94}
+Performance on validation data - Confusion matrix
+[[78384   938]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.39522888]
+Recall [0.98817478 0.99837134]
+F-score [0.99404592 0.56628176]
+Support [79322   614]
+**************************************
+Iteration number   95
+Class weights  {0: 1, 1: 95}
+Performance on validation data - Confusion matrix
+[[78380   942]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.39421222]
+Recall [0.98812435 0.99837134]
+F-score [0.99402041 0.56523744]
+Support [79322   614]
+**************************************
+Iteration number   96
+Class weights  {0: 1, 1: 96}
+Performance on validation data - Confusion matrix
+[[78373   949]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.39244558]
+Recall [0.98803611 0.99837134]
+F-score [0.99397575 0.56341912]
+Support [79322   614]
+**************************************
+Iteration number   97
+Class weights  {0: 1, 1: 97}
+Performance on validation data - Confusion matrix
+[[78367   955]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.39094388]
+Recall [0.98796046 0.99837134]
+F-score [0.99393747 0.56186984]
+Support [79322   614]
+**************************************
+Iteration number   98
+Class weights  {0: 1, 1: 98}
+Performance on validation data - Confusion matrix
+[[78361   961]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38945362]
+Recall [0.98788482 0.99837134]
+F-score [0.99389919 0.56032907]
+Support [79322   614]
+**************************************
+Iteration number   99
+Class weights  {0: 1, 1: 99}
+Performance on validation data - Confusion matrix
+[[78361   961]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38945362]
+Recall [0.98788482 0.99837134]
+F-score [0.99389919 0.56032907]
+Support [79322   614]
+**************************************
+Iteration number   100
+Class weights  {0: 1, 1: 100}
+Performance on validation data - Confusion matrix
+[[78356   966]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38822039]
+Recall [0.98782179 0.99837134]
+F-score [0.99386729 0.55905153]
+Support [79322   614]
+**************************************
+Iteration number   101
+Class weights  {0: 1, 1: 101}
+Performance on validation data - Confusion matrix
+[[78349   973]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38650694]
+Recall [0.98773354 0.99837134]
+F-score [0.99382262 0.55727273]
+Support [79322   614]
+**************************************
+Iteration number   102
+Class weights  {0: 1, 1: 102}
+Performance on validation data - Confusion matrix
+[[78346   976]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38577722]
+Recall [0.98769572 0.99837134]
+F-score [0.99380347 0.55651384]
+Support [79322   614]
+**************************************
+Iteration number   103
+Class weights  {0: 1, 1: 103}
+Performance on validation data - Confusion matrix
+[[78343   979]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38505025]
+Recall [0.9876579  0.99837134]
+F-score [0.99378433 0.55575703]
+Support [79322   614]
+**************************************
+Iteration number   104
+Class weights  {0: 1, 1: 104}
+Performance on validation data - Confusion matrix
+[[78339   983]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998724 0.38408521]
+Recall [0.98760747 0.99837134]
+F-score [0.9937588  0.55475113]
+Support [79322   614]
+**************************************
+Iteration number   105
+Class weights  {0: 1, 1: 105}
+Performance on validation data - Confusion matrix
+[[78334   988]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.3828857 ]
+Recall [0.98754444 0.99837134]
+F-score [0.99372689 0.55349887]
+Support [79322   614]
+**************************************
+Iteration number   106
+Class weights  {0: 1, 1: 106}
+Performance on validation data - Confusion matrix
+[[78329   993]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.38169365]
+Recall [0.9874814  0.99837134]
+F-score [0.99369497 0.55225225]
+Support [79322   614]
+**************************************
+Iteration number   107
+Class weights  {0: 1, 1: 107}
+Performance on validation data - Confusion matrix
+[[78325   997]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.38074534]
+Recall [0.98743098 0.99837134]
+F-score [0.99366944 0.55125899]
+Support [79322   614]
+**************************************
+Iteration number   108
+Class weights  {0: 1, 1: 108}
+Performance on validation data - Confusion matrix
+[[78321  1001]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37980173]
+Recall [0.98738055 0.99837134]
+F-score [0.99364391 0.5502693 ]
+Support [79322   614]
+**************************************
+Iteration number   109
+Class weights  {0: 1, 1: 109}
+Performance on validation data - Confusion matrix
+[[78317  1005]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37886279]
+Recall [0.98733012 0.99837134]
+F-score [0.99361837 0.54928315]
+Support [79322   614]
+**************************************
+Iteration number   110
+Class weights  {0: 1, 1: 110}
+Performance on validation data - Confusion matrix
+[[78312  1010]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37769563]
+Recall [0.98726709 0.99837134]
+F-score [0.99358645 0.54805543]
+Support [79322   614]
+**************************************
+Iteration number   111
+Class weights  {0: 1, 1: 111}
+Performance on validation data - Confusion matrix
+[[78306  1016]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37630448]
+Recall [0.98719145 0.99837134]
+F-score [0.99354814 0.54658939]
+Support [79322   614]
+**************************************
+Iteration number   112
+Class weights  {0: 1, 1: 112}
+Performance on validation data - Confusion matrix
+[[78303  1019]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37561275]
+Recall [0.98715363 0.99837134]
+F-score [0.99352899 0.54585931]
+Support [79322   614]
+**************************************
+Iteration number   113
+Class weights  {0: 1, 1: 113}
+Performance on validation data - Confusion matrix
+[[78301  1021]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.375153  ]
+Recall [0.98712841 0.99837134]
+F-score [0.99351622 0.54537367]
+Support [79322   614]
+**************************************
+Iteration number   114
+Class weights  {0: 1, 1: 114}
+Performance on validation data - Confusion matrix
+[[78298  1024]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37446549]
+Recall [0.98709059 0.99837134]
+F-score [0.99349706 0.54464682]
+Support [79322   614]
+**************************************
+Iteration number   115
+Class weights  {0: 1, 1: 115}
+Performance on validation data - Confusion matrix
+[[78295  1027]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37378049]
+Recall [0.98705277 0.99837134]
+F-score [0.9934779  0.54392192]
+Support [79322   614]
+**************************************
+Iteration number   116
+Class weights  {0: 1, 1: 116}
+Performance on validation data - Confusion matrix
+[[78287  1035]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37196602]
+Recall [0.98695192 0.99837134]
+F-score [0.99342681 0.54199823]
+Support [79322   614]
+**************************************
+Iteration number   117
+Class weights  {0: 1, 1: 117}
+Performance on validation data - Confusion matrix
+[[78283  1039]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37106538]
+Recall [0.98690149 0.99837134]
+F-score [0.99340127 0.54104148]
+Support [79322   614]
+**************************************
+Iteration number   118
+Class weights  {0: 1, 1: 118}
+Performance on validation data - Confusion matrix
+[[78280  1042]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998723 0.37039275]
+Recall [0.98686367 0.99837134]
+F-score [0.99338211 0.54032613]
+Support [79322   614]
+**************************************
+Iteration number   119
+Class weights  {0: 1, 1: 119}
+Performance on validation data - Confusion matrix
+[[78276  1046]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.3694997 ]
+Recall [0.98681324 0.99837134]
+F-score [0.99335656 0.53937527]
+Support [79322   614]
+**************************************
+Iteration number   120
+Class weights  {0: 1, 1: 120}
+Performance on validation data - Confusion matrix
+[[78272  1050]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36861094]
+Recall [0.98676281 0.99837134]
+F-score [0.99333101 0.53842776]
+Support [79322   614]
+**************************************
+Iteration number   121
+Class weights  {0: 1, 1: 121}
+Performance on validation data - Confusion matrix
+[[78268  1054]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36772645]
+Recall [0.98671239 0.99837134]
+F-score [0.99330546 0.53748356]
+Support [79322   614]
+**************************************
+Iteration number   122
+Class weights  {0: 1, 1: 122}
+Performance on validation data - Confusion matrix
+[[78265  1057]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36706587]
+Recall [0.98667457 0.99837134]
+F-score [0.99328629 0.53677758]
+Support [79322   614]
+**************************************
+Iteration number   123
+Class weights  {0: 1, 1: 123}
+Performance on validation data - Confusion matrix
+[[78259  1063]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36575179]
+Recall [0.98659893 0.99837134]
+F-score [0.99324796 0.53537118]
+Support [79322   614]
+**************************************
+Iteration number   124
+Class weights  {0: 1, 1: 124}
+Performance on validation data - Confusion matrix
+[[78254  1068]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36466389]
+Recall [0.98653589 0.99837134]
+F-score [0.99321602 0.53420479]
+Support [79322   614]
+**************************************
+Iteration number   125
+Class weights  {0: 1, 1: 125}
+Performance on validation data - Confusion matrix
+[[78249  1073]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36358244]
+Recall [0.98647286 0.99837134]
+F-score [0.99318407 0.53304348]
+Support [79322   614]
+**************************************
+Iteration number   126
+Class weights  {0: 1, 1: 126}
+Performance on validation data - Confusion matrix
+[[78242  1080]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36207915]
+Recall [0.98638461 0.99837134]
+F-score [0.99313934 0.53142609]
+Support [79322   614]
+**************************************
+Iteration number   127
+Class weights  {0: 1, 1: 127}
+Performance on validation data - Confusion matrix
+[[78237  1085]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.36101296]
+Recall [0.98632158 0.99837134]
+F-score [0.99310739 0.53027682]
+Support [79322   614]
+**************************************
+Iteration number   128
+Class weights  {0: 1, 1: 128}
+Performance on validation data - Confusion matrix
+[[78229  1093]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.35932005]
+Recall [0.98622072 0.99837134]
+F-score [0.99305626 0.52844828]
+Support [79322   614]
+**************************************
+Iteration number   129
+Class weights  {0: 1, 1: 129}
+Performance on validation data - Confusion matrix
+[[78224  1098]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.35827002]
+Recall [0.98615769 0.99837134]
+F-score [0.9930243  0.52731183]
+Support [79322   614]
+**************************************
+Iteration number   130
+Class weights  {0: 1, 1: 130}
+Performance on validation data - Confusion matrix
+[[78219  1103]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.35722611]
+Recall [0.98609465 0.99837134]
+F-score [0.99299234 0.52618026]
+Support [79322   614]
+**************************************
+Iteration number   131
+Class weights  {0: 1, 1: 131}
+Performance on validation data - Confusion matrix
+[[78217  1105]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998722 0.35681024]
+Recall [0.98606944 0.99837134]
+F-score [0.99297956 0.52572899]
+Support [79322   614]
+**************************************
+Iteration number   132
+Class weights  {0: 1, 1: 132}
+Performance on validation data - Confusion matrix
+[[78210  1112]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.35536232]
+Recall [0.98598119 0.99837134]
+F-score [0.99293481 0.52415562]
+Support [79322   614]
+**************************************
+Iteration number   133
+Class weights  {0: 1, 1: 133}
+Performance on validation data - Confusion matrix
+[[78208  1114]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.35495078]
+Recall [0.98595598 0.99837134]
+F-score [0.99292203 0.52370782]
+Support [79322   614]
+**************************************
+Iteration number   134
+Class weights  {0: 1, 1: 134}
+Performance on validation data - Confusion matrix
+[[78203  1119]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.3539261 ]
+Recall [0.98589294 0.99837134]
+F-score [0.99289006 0.52259165]
+Support [79322   614]
+**************************************
+Iteration number   135
+Class weights  {0: 1, 1: 135}
+Performance on validation data - Confusion matrix
+[[78198  1124]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.35290731]
+Recall [0.98582991 0.99837134]
+F-score [0.9928581  0.52148022]
+Support [79322   614]
+**************************************
+Iteration number   136
+Class weights  {0: 1, 1: 136}
+Performance on validation data - Confusion matrix
+[[78195  1127]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.35229885]
+Recall [0.98579209 0.99837134]
+F-score [0.99283891 0.52081563]
+Support [79322   614]
+**************************************
+Iteration number   137
+Class weights  {0: 1, 1: 137}
+Performance on validation data - Confusion matrix
+[[78191  1131]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.35149083]
+Recall [0.98574166 0.99837134]
+F-score [0.99281334 0.51993215]
+Support [79322   614]
+**************************************
+Iteration number   138
+Class weights  {0: 1, 1: 138}
+Performance on validation data - Confusion matrix
+[[78183  1139]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34988584]
+Recall [0.98564081 0.99837134]
+F-score [0.99276218 0.51817413]
+Support [79322   614]
+**************************************
+Iteration number   139
+Class weights  {0: 1, 1: 139}
+Performance on validation data - Confusion matrix
+[[78180  1142]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34928775]
+Recall [0.98560299 0.99837134]
+F-score [0.992743   0.51751794]
+Support [79322   614]
+**************************************
+Iteration number   140
+Class weights  {0: 1, 1: 140}
+Performance on validation data - Confusion matrix
+[[78175  1147]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34829545]
+Recall [0.98553995 0.99837134]
+F-score [0.99271102 0.51642797]
+Support [79322   614]
+**************************************
+Iteration number   141
+Class weights  {0: 1, 1: 141}
+Performance on validation data - Confusion matrix
+[[78170  1152]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34730878]
+Recall [0.98547692 0.99837134]
+F-score [0.99267904 0.51534258]
+Support [79322   614]
+**************************************
+Iteration number   142
+Class weights  {0: 1, 1: 142}
+Performance on validation data - Confusion matrix
+[[78167  1155]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34671946]
+Recall [0.9854391  0.99837134]
+F-score [0.99265985 0.51469353]
+Support [79322   614]
+**************************************
+Iteration number   143
+Class weights  {0: 1, 1: 143}
+Performance on validation data - Confusion matrix
+[[78164  1158]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34613213]
+Recall [0.98540128 0.99837134]
+F-score [0.99264066 0.51404612]
+Support [79322   614]
+**************************************
+Iteration number   144
+Class weights  {0: 1, 1: 144}
+Performance on validation data - Confusion matrix
+[[78159  1163]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998721 0.34515766]
+Recall [0.98533824 0.99837134]
+F-score [0.99260868 0.51297071]
+Support [79322   614]
+**************************************
+Iteration number   145
+Class weights  {0: 1, 1: 145}
+Performance on validation data - Confusion matrix
+[[78152  1170]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.34380258]
+Recall [0.98524999 0.99837134]
+F-score [0.9925639  0.51147267]
+Support [79322   614]
+**************************************
+Iteration number   146
+Class weights  {0: 1, 1: 146}
+Performance on validation data - Confusion matrix
+[[78148  1174]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.34303302]
+Recall [0.98519957 0.99837134]
+F-score [0.99253831 0.51062057]
+Support [79322   614]
+**************************************
+Iteration number   147
+Class weights  {0: 1, 1: 147}
+Performance on validation data - Confusion matrix
+[[78138  1184]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872 0.3411241]
+Recall [0.9850735  0.99837134]
+F-score [0.99247433 0.5085027 ]
+Support [79322   614]
+**************************************
+Iteration number   148
+Class weights  {0: 1, 1: 148}
+Performance on validation data - Confusion matrix
+[[78136  1186]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.34074486]
+Recall [0.98504828 0.99837134]
+F-score [0.99246153 0.50808123]
+Support [79322   614]
+**************************************
+Iteration number   149
+Class weights  {0: 1, 1: 149}
+Performance on validation data - Confusion matrix
+[[78132  1190]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33998891]
+Recall [0.98499786 0.99837134]
+F-score [0.99243593 0.50724038]
+Support [79322   614]
+**************************************
+Iteration number   150
+Class weights  {0: 1, 1: 150}
+Performance on validation data - Confusion matrix
+[[78125  1197]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33867403]
+Recall [0.98490961 0.99837134]
+F-score [0.99239114 0.50577558]
+Support [79322   614]
+**************************************
+Iteration number   151
+Class weights  {0: 1, 1: 151}
+Performance on validation data - Confusion matrix
+[[78120  1202]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33774105]
+Recall [0.98484657 0.99837134]
+F-score [0.99235914 0.50473446]
+Support [79322   614]
+**************************************
+Iteration number   152
+Class weights  {0: 1, 1: 152}
+Performance on validation data - Confusion matrix
+[[78119  1203]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33755507]
+Recall [0.98483397 0.99837134]
+F-score [0.99235274 0.50452675]
+Support [79322   614]
+**************************************
+Iteration number   153
+Class weights  {0: 1, 1: 153}
+Performance on validation data - Confusion matrix
+[[78113  1209]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33644347]
+Recall [0.98475833 0.99837134]
+F-score [0.99231434 0.50328407]
+Support [79322   614]
+**************************************
+Iteration number   154
+Class weights  {0: 1, 1: 154}
+Performance on validation data - Confusion matrix
+[[78109  1213]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33570646]
+Recall [0.9847079  0.99837134]
+F-score [0.99228873 0.50245902]
+Support [79322   614]
+**************************************
+Iteration number   155
+Class weights  {0: 1, 1: 155}
+Performance on validation data - Confusion matrix
+[[78104  1218]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33478973]
+Recall [0.98464487 0.99837134]
+F-score [0.99225673 0.50143149]
+Support [79322   614]
+**************************************
+Iteration number   156
+Class weights  {0: 1, 1: 156}
+Performance on validation data - Confusion matrix
+[[78095  1227]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999872  0.33315217]
+Recall [0.9845314  0.99837134]
+F-score [0.99219911 0.4995925 ]
+Support [79322   614]
+**************************************
+Iteration number   157
+Class weights  {0: 1, 1: 157}
+Performance on validation data - Confusion matrix
+[[78091  1231]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.3324295 ]
+Recall [0.98448098 0.99837134]
+F-score [0.9921735 0.4987795]
+Support [79322   614]
+**************************************
+Iteration number   158
+Class weights  {0: 1, 1: 158}
+Performance on validation data - Confusion matrix
+[[78090  1232]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.33224932]
+Recall [0.98446837 0.99837134]
+F-score [0.9921671  0.49857666]
+Support [79322   614]
+**************************************
+Iteration number   159
+Class weights  {0: 1, 1: 159}
+Performance on validation data - Confusion matrix
+[[78088  1234]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.33188955]
+Recall [0.98444316 0.99837134]
+F-score [0.9921543  0.49817148]
+Support [79322   614]
+**************************************
+Iteration number   160
+Class weights  {0: 1, 1: 160}
+Performance on validation data - Confusion matrix
+[[78081  1241]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.33063646]
+Recall [0.98435491 0.99837134]
+F-score [0.99210948 0.49675851]
+Support [79322   614]
+**************************************
+Iteration number   161
+Class weights  {0: 1, 1: 161}
+Performance on validation data - Confusion matrix
+[[78077  1245]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32992465]
+Recall [0.98430448 0.99837134]
+F-score [0.99208386 0.49595469]
+Support [79322   614]
+**************************************
+Iteration number   162
+Class weights  {0: 1, 1: 162}
+Performance on validation data - Confusion matrix
+[[78075  1247]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32956989]
+Recall [0.98427927 0.99837134]
+F-score [0.99207106 0.49555376]
+Support [79322   614]
+**************************************
+Iteration number   163
+Class weights  {0: 1, 1: 163}
+Performance on validation data - Confusion matrix
+[[78071  1251]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32886266]
+Recall [0.98422884 0.99837134]
+F-score [0.99204544 0.49475383]
+Support [79322   614]
+**************************************
+Iteration number   164
+Class weights  {0: 1, 1: 164}
+Performance on validation data - Confusion matrix
+[[78065  1257]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32780749]
+Recall [0.9841532  0.99837134]
+F-score [0.99200701 0.49355878]
+Support [79322   614]
+**************************************
+Iteration number   165
+Class weights  {0: 1, 1: 165}
+Performance on validation data - Confusion matrix
+[[78063  1259]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32745726]
+Recall [0.98412798 0.99837134]
+F-score [0.99199421 0.49316171]
+Support [79322   614]
+**************************************
+Iteration number   166
+Class weights  {0: 1, 1: 166}
+Performance on validation data - Confusion matrix
+[[78055  1267]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32606383]
+Recall [0.98402713 0.99837134]
+F-score [0.99194297 0.49157979]
+Support [79322   614]
+**************************************
+Iteration number   167
+Class weights  {0: 1, 1: 167}
+Performance on validation data - Confusion matrix
+[[78049  1273]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32502651]
+Recall [0.98395149 0.99837134]
+F-score [0.99190453 0.4904    ]
+Support [79322   614]
+**************************************
+Iteration number   168
+Class weights  {0: 1, 1: 168}
+Performance on validation data - Confusion matrix
+[[78045  1277]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32433862]
+Recall [0.98390106 0.99837134]
+F-score [0.99187891 0.48961661]
+Support [79322   614]
+**************************************
+Iteration number   169
+Class weights  {0: 1, 1: 169}
+Performance on validation data - Confusion matrix
+[[78043  1279]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32399577]
+Recall [0.98387585 0.99837134]
+F-score [0.9918661  0.48922586]
+Support [79322   614]
+**************************************
+Iteration number   170
+Class weights  {0: 1, 1: 170}
+Performance on validation data - Confusion matrix
+[[78039  1283]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32331224]
+Recall [0.98382542 0.99837134]
+F-score [0.99184047 0.48844622]
+Support [79322   614]
+**************************************
+Iteration number   171
+Class weights  {0: 1, 1: 171}
+Performance on validation data - Confusion matrix
+[[78033  1289]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998719 0.32229232]
+Recall [0.98374978 0.99837134]
+F-score [0.99180203 0.4872814 ]
+Support [79322   614]
+**************************************
+Iteration number   172
+Class weights  {0: 1, 1: 172}
+Performance on validation data - Confusion matrix
+[[78026  1296]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.32111053]
+Recall [0.98366153 0.99837134]
+F-score [0.99175718 0.48592945]
+Support [79322   614]
+**************************************
+Iteration number   173
+Class weights  {0: 1, 1: 173}
+Performance on validation data - Confusion matrix
+[[78022  1300]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.3204391 ]
+Recall [0.9836111  0.99837134]
+F-score [0.99173155 0.48516027]
+Support [79322   614]
+**************************************
+Iteration number   174
+Class weights  {0: 1, 1: 174}
+Performance on validation data - Confusion matrix
+[[78018  1304]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31977047]
+Recall [0.98356068 0.99837134]
+F-score [0.99170591 0.48439352]
+Support [79322   614]
+**************************************
+Iteration number   175
+Class weights  {0: 1, 1: 175}
+Performance on validation data - Confusion matrix
+[[78012  1310]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31877275]
+Recall [0.98348504 0.99837134]
+F-score [0.99166746 0.48324793]
+Support [79322   614]
+**************************************
+Iteration number   176
+Class weights  {0: 1, 1: 176}
+Performance on validation data - Confusion matrix
+[[78008  1314]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31811105]
+Recall [0.98343461 0.99837134]
+F-score [0.99164183 0.48248721]
+Support [79322   614]
+**************************************
+Iteration number   177
+Class weights  {0: 1, 1: 177}
+Performance on validation data - Confusion matrix
+[[78004  1318]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.3174521 ]
+Recall [0.98338418 0.99837134]
+F-score [0.99161619 0.48172888]
+Support [79322   614]
+**************************************
+Iteration number   178
+Class weights  {0: 1, 1: 178}
+Performance on validation data - Confusion matrix
+[[77998  1324]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31646877]
+Recall [0.98330854 0.99837134]
+F-score [0.99157773 0.48059584]
+Support [79322   614]
+**************************************
+Iteration number   179
+Class weights  {0: 1, 1: 179}
+Performance on validation data - Confusion matrix
+[[77995  1327]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31597938]
+Recall [0.98327072 0.99837134]
+F-score [0.9915585  0.48003132]
+Support [79322   614]
+**************************************
+Iteration number   180
+Class weights  {0: 1, 1: 180}
+Performance on validation data - Confusion matrix
+[[77991  1331]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31532922]
+Recall [0.98322029 0.99837134]
+F-score [0.99153286 0.47928069]
+Support [79322   614]
+**************************************
+Iteration number   181
+Class weights  {0: 1, 1: 181}
+Performance on validation data - Confusion matrix
+[[77988  1334]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31484335]
+Recall [0.98318247 0.99837134]
+F-score [0.99151363 0.47871925]
+Support [79322   614]
+**************************************
+Iteration number   182
+Class weights  {0: 1, 1: 182}
+Performance on validation data - Confusion matrix
+[[77985  1337]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31435897]
+Recall [0.98314465 0.99837134]
+F-score [0.99149439 0.47815913]
+Support [79322   614]
+**************************************
+Iteration number   183
+Class weights  {0: 1, 1: 183}
+Performance on validation data - Confusion matrix
+[[77980  1342]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31355499]
+Recall [0.98308162 0.99837134]
+F-score [0.99146234 0.47722849]
+Support [79322   614]
+**************************************
+Iteration number   184
+Class weights  {0: 1, 1: 184}
+Performance on validation data - Confusion matrix
+[[77974  1348]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998718 0.31259561]
+Recall [0.98300598 0.99837134]
+F-score [0.99142387 0.4761165 ]
+Support [79322   614]
+**************************************
+Iteration number   185
+Class weights  {0: 1, 1: 185}
+Performance on validation data - Confusion matrix
+[[77968  1354]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.31164209]
+Recall [0.98293033 0.99837134]
+F-score [0.99138539 0.47500969]
+Support [79322   614]
+**************************************
+Iteration number   186
+Class weights  {0: 1, 1: 186}
+Performance on validation data - Confusion matrix
+[[77965  1357]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.31116751]
+Recall [0.98289251 0.99837134]
+F-score [0.99136616 0.4744582 ]
+Support [79322   614]
+**************************************
+Iteration number   187
+Class weights  {0: 1, 1: 187}
+Performance on validation data - Confusion matrix
+[[77959  1363]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.31022267]
+Recall [0.98281687 0.99837134]
+F-score [0.99132768 0.47335907]
+Support [79322   614]
+**************************************
+Iteration number   188
+Class weights  {0: 1, 1: 188}
+Performance on validation data - Confusion matrix
+[[77955  1367]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30959596]
+Recall [0.98276645 0.99837134]
+F-score [0.99130203 0.47262914]
+Support [79322   614]
+**************************************
+Iteration number   189
+Class weights  {0: 1, 1: 189}
+Performance on validation data - Confusion matrix
+[[77950  1372]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30881612]
+Recall [0.98270341 0.99837134]
+F-score [0.99126996 0.47171989]
+Support [79322   614]
+**************************************
+Iteration number   190
+Class weights  {0: 1, 1: 190}
+Performance on validation data - Confusion matrix
+[[77949  1373]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30866062]
+Recall [0.9826908  0.99837134]
+F-score [0.99126354 0.47153846]
+Support [79322   614]
+**************************************
+Iteration number   191
+Class weights  {0: 1, 1: 191}
+Performance on validation data - Confusion matrix
+[[77942  1380]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30757652]
+Recall [0.98260256 0.99837134]
+F-score [0.99121864 0.47027234]
+Support [79322   614]
+**************************************
+Iteration number   192
+Class weights  {0: 1, 1: 192}
+Performance on validation data - Confusion matrix
+[[77933  1389]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30619381]
+Recall [0.9824891  0.99837134]
+F-score [0.99116091 0.46865443]
+Support [79322   614]
+**************************************
+Iteration number   193
+Class weights  {0: 1, 1: 193}
+Performance on validation data - Confusion matrix
+[[77930  1392]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30573566]
+Recall [0.98245127 0.99837134]
+F-score [0.99114166 0.4681176 ]
+Support [79322   614]
+**************************************
+Iteration number   194
+Class weights  {0: 1, 1: 194}
+Performance on validation data - Confusion matrix
+[[77928  1394]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30543099]
+Recall [0.98242606 0.99837134]
+F-score [0.99112883 0.4677604 ]
+Support [79322   614]
+**************************************
+Iteration number   195
+Class weights  {0: 1, 1: 195}
+Performance on validation data - Confusion matrix
+[[77927  1395]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30527888]
+Recall [0.98241345 0.99837134]
+F-score [0.99112242 0.467582  ]
+Support [79322   614]
+**************************************
+Iteration number   196
+Class weights  {0: 1, 1: 196}
+Performance on validation data - Confusion matrix
+[[77926  1396]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30512693]
+Recall [0.98240085 0.99837134]
+F-score [0.991116   0.46740374]
+Support [79322   614]
+**************************************
+Iteration number   197
+Class weights  {0: 1, 1: 197}
+Performance on validation data - Confusion matrix
+[[77921  1401]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30436941]
+Recall [0.98233781 0.99837134]
+F-score [0.99108392 0.46651446]
+Support [79322   614]
+**************************************
+Iteration number   198
+Class weights  {0: 1, 1: 198}
+Performance on validation data - Confusion matrix
+[[77917  1405]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30376611]
+Recall [0.98228739 0.99837134]
+F-score [0.99105825 0.46580547]
+Support [79322   614]
+**************************************
+Iteration number   199
+Class weights  {0: 1, 1: 199}
+Performance on validation data - Confusion matrix
+[[77912  1410]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30301532]
+Recall [0.98222435 0.99837134]
+F-score [0.99102617 0.46492226]
+Support [79322   614]
+**************************************
+Iteration number   200
+Class weights  {0: 1, 1: 200}
+Performance on validation data - Confusion matrix
+[[77911  1411]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998717 0.30286561]
+Recall [0.98221174 0.99837134]
+F-score [0.99101975 0.46474602]
+Support [79322   614]
+**************************************
+Iteration number   201
+Class weights  {0: 1, 1: 201}
+Performance on validation data - Confusion matrix
+[[77907  1415]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.30226824]
+Recall [0.98216132 0.99837134]
+F-score [0.99099409 0.46404239]
+Support [79322   614]
+**************************************
+Iteration number   202
+Class weights  {0: 1, 1: 202}
+Performance on validation data - Confusion matrix
+[[77903  1419]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.30167323]
+Recall [0.98211089 0.99837134]
+F-score [0.99096841 0.46334089]
+Support [79322   614]
+**************************************
+Iteration number   203
+Class weights  {0: 1, 1: 203}
+Performance on validation data - Confusion matrix
+[[77896  1426]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.30063757]
+Recall [0.98202264 0.99837134]
+F-score [0.99092349 0.46211836]
+Support [79322   614]
+**************************************
+Iteration number   204
+Class weights  {0: 1, 1: 204}
+Performance on validation data - Confusion matrix
+[[77889  1433]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29960899]
+Recall [0.98193439 0.99837134]
+F-score [0.99087856 0.46090226]
+Support [79322   614]
+**************************************
+Iteration number   205
+Class weights  {0: 1, 1: 205}
+Performance on validation data - Confusion matrix
+[[77885  1437]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29902439]
+Recall [0.98188397 0.99837134]
+F-score [0.99085288 0.46021021]
+Support [79322   614]
+**************************************
+Iteration number   206
+Class weights  {0: 1, 1: 206}
+Performance on validation data - Confusion matrix
+[[77882  1440]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29858743]
+Recall [0.98184615 0.99837134]
+F-score [0.99083362 0.45969254]
+Support [79322   614]
+**************************************
+Iteration number   207
+Class weights  {0: 1, 1: 207}
+Performance on validation data - Confusion matrix
+[[77881  1441]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29844206]
+Recall [0.98183354 0.99837134]
+F-score [0.99082721 0.45952024]
+Support [79322   614]
+**************************************
+Iteration number   208
+Class weights  {0: 1, 1: 208}
+Performance on validation data - Confusion matrix
+[[77880  1442]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29829684]
+Recall [0.98182093 0.99837134]
+F-score [0.99082079 0.45934807]
+Support [79322   614]
+**************************************
+Iteration number   209
+Class weights  {0: 1, 1: 209}
+Performance on validation data - Confusion matrix
+[[77875  1447]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29757282]
+Recall [0.9817579  0.99837134]
+F-score [0.99078869 0.45848915]
+Support [79322   614]
+**************************************
+Iteration number   210
+Class weights  {0: 1, 1: 210}
+Performance on validation data - Confusion matrix
+[[77869  1453]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29670862]
+Recall [0.98168226 0.99837134]
+F-score [0.99075017 0.45746269]
+Support [79322   614]
+**************************************
+Iteration number   211
+Class weights  {0: 1, 1: 211}
+Performance on validation data - Confusion matrix
+[[77859  1463]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29527938]
+Recall [0.98155619 0.99837134]
+F-score [0.99068596 0.45576208]
+Support [79322   614]
+**************************************
+Iteration number   212
+Class weights  {0: 1, 1: 212}
+Performance on validation data - Confusion matrix
+[[77854  1468]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998716 0.29456992]
+Recall [0.98149315 0.99837134]
+F-score [0.99065385 0.45491651]
+Support [79322   614]
+**************************************
+Iteration number   213
+Class weights  {0: 1, 1: 213}
+Performance on validation data - Confusion matrix
+[[77849  1473]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29386385]
+Recall [0.98143012 0.99837134]
+F-score [0.99062174 0.45407407]
+Support [79322   614]
+**************************************
+Iteration number   214
+Class weights  {0: 1, 1: 214}
+Performance on validation data - Confusion matrix
+[[77843  1479]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29302103]
+Recall [0.98135448 0.99837134]
+F-score [0.99058321 0.45306726]
+Support [79322   614]
+**************************************
+Iteration number   215
+Class weights  {0: 1, 1: 215}
+Performance on validation data - Confusion matrix
+[[77838  1484]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29232237]
+Recall [0.98129144 0.99837134]
+F-score [0.99055109 0.45223165]
+Support [79322   614]
+**************************************
+Iteration number   216
+Class weights  {0: 1, 1: 216}
+Performance on validation data - Confusion matrix
+[[77834  1488]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29176583]
+Recall [0.98124102 0.99837134]
+F-score [0.9905254  0.45156538]
+Support [79322   614]
+**************************************
+Iteration number   217
+Class weights  {0: 1, 1: 217}
+Performance on validation data - Confusion matrix
+[[77831  1491]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29134981]
+Recall [0.9812032  0.99837134]
+F-score [0.99050613 0.45106696]
+Support [79322   614]
+**************************************
+Iteration number   218
+Class weights  {0: 1, 1: 218}
+Performance on validation data - Confusion matrix
+[[77827  1495]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29079696]
+Recall [0.98115277 0.99837134]
+F-score [0.99048043 0.45040411]
+Support [79322   614]
+**************************************
+Iteration number   219
+Class weights  {0: 1, 1: 219}
+Performance on validation data - Confusion matrix
+[[77822  1500]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.29010885]
+Recall [0.98108974 0.99837134]
+F-score [0.99044831 0.44957829]
+Support [79322   614]
+**************************************
+Iteration number   220
+Class weights  {0: 1, 1: 220}
+Performance on validation data - Confusion matrix
+[[77820  1502]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28983452]
+Recall [0.98106452 0.99837134]
+F-score [0.99043546 0.44924881]
+Support [79322   614]
+**************************************
+Iteration number   221
+Class weights  {0: 1, 1: 221}
+Performance on validation data - Confusion matrix
+[[77818  1504]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.2895607 ]
+Recall [0.98103931 0.99837134]
+F-score [0.99042261 0.44891981]
+Support [79322   614]
+**************************************
+Iteration number   222
+Class weights  {0: 1, 1: 222}
+Performance on validation data - Confusion matrix
+[[77813  1509]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28887842]
+Recall [0.98097627 0.99837134]
+F-score [0.99039049 0.44809942]
+Support [79322   614]
+**************************************
+Iteration number   223
+Class weights  {0: 1, 1: 223}
+Performance on validation data - Confusion matrix
+[[77813  1509]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28887842]
+Recall [0.98097627 0.99837134]
+F-score [0.99039049 0.44809942]
+Support [79322   614]
+**************************************
+Iteration number   224
+Class weights  {0: 1, 1: 224}
+Performance on validation data - Confusion matrix
+[[77809  1513]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.2883349 ]
+Recall [0.98092585 0.99837134]
+F-score [0.99036479 0.44744526]
+Support [79322   614]
+**************************************
+Iteration number   225
+Class weights  {0: 1, 1: 225}
+Performance on validation data - Confusion matrix
+[[77808  1514]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28819934]
+Recall [0.98091324 0.99837134]
+F-score [0.99035836 0.44728201]
+Support [79322   614]
+**************************************
+Iteration number   226
+Class weights  {0: 1, 1: 226}
+Performance on validation data - Confusion matrix
+[[77803  1519]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28752345]
+Recall [0.98085021 0.99837134]
+F-score [0.99032623 0.44646759]
+Support [79322   614]
+**************************************
+Iteration number   227
+Class weights  {0: 1, 1: 227}
+Performance on validation data - Confusion matrix
+[[77802  1520]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28738865]
+Recall [0.9808376  0.99837134]
+F-score [0.99031981 0.44630506]
+Support [79322   614]
+**************************************
+Iteration number   228
+Class weights  {0: 1, 1: 228}
+Performance on validation data - Confusion matrix
+[[77797  1525]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28671656]
+Recall [0.98077456 0.99837134]
+F-score [0.99028768 0.44549419]
+Support [79322   614]
+**************************************
+Iteration number   229
+Class weights  {0: 1, 1: 229}
+Performance on validation data - Confusion matrix
+[[77794  1528]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28631481]
+Recall [0.98073674 0.99837134]
+F-score [0.9902684  0.44500907]
+Support [79322   614]
+**************************************
+Iteration number   230
+Class weights  {0: 1, 1: 230}
+Performance on validation data - Confusion matrix
+[[77790  1532]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998715 0.28578089]
+Recall [0.98068632 0.99837134]
+F-score [0.99024269 0.4443639 ]
+Support [79322   614]
+**************************************
+Iteration number   231
+Class weights  {0: 1, 1: 231}
+Performance on validation data - Confusion matrix
+[[77784  1538]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28498373]
+Recall [0.98061068 0.99837134]
+F-score [0.99020413 0.44339964]
+Support [79322   614]
+**************************************
+Iteration number   232
+Class weights  {0: 1, 1: 232}
+Performance on validation data - Confusion matrix
+[[77779  1543]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28432282]
+Recall [0.98054764 0.99837134]
+F-score [0.99017199 0.44259928]
+Support [79322   614]
+**************************************
+Iteration number   233
+Class weights  {0: 1, 1: 233}
+Performance on validation data - Confusion matrix
+[[77777  1545]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28405931]
+Recall [0.98052243 0.99837134]
+F-score [0.99015913 0.44227994]
+Support [79322   614]
+**************************************
+Iteration number   234
+Class weights  {0: 1, 1: 234}
+Performance on validation data - Confusion matrix
+[[77773  1549]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28353377]
+Recall [0.980472   0.99837134]
+F-score [0.99013342 0.44164265]
+Support [79322   614]
+**************************************
+Iteration number   235
+Class weights  {0: 1, 1: 235}
+Performance on validation data - Confusion matrix
+[[77770  1552]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28314088]
+Recall [0.98043418 0.99837134]
+F-score [0.99011414 0.44116589]
+Support [79322   614]
+**************************************
+Iteration number   236
+Class weights  {0: 1, 1: 236}
+Performance on validation data - Confusion matrix
+[[77767  1555]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28274908]
+Recall [0.98039636 0.99837134]
+F-score [0.99009485 0.44069015]
+Support [79322   614]
+**************************************
+Iteration number   237
+Class weights  {0: 1, 1: 237}
+Performance on validation data - Confusion matrix
+[[77760  1562]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28183908]
+Recall [0.98030811 0.99837134]
+F-score [0.99004985 0.43958408]
+Support [79322   614]
+**************************************
+Iteration number   238
+Class weights  {0: 1, 1: 238}
+Performance on validation data - Confusion matrix
+[[77756  1566]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28132171]
+Recall [0.98025768 0.99837134]
+F-score [0.99002413 0.43895453]
+Support [79322   614]
+**************************************
+Iteration number   239
+Class weights  {0: 1, 1: 239}
+Performance on validation data - Confusion matrix
+[[77750  1572]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.2805492 ]
+Recall [0.98018204 0.99837134]
+F-score [0.98998555 0.43801358]
+Support [79322   614]
+**************************************
+Iteration number   240
+Class weights  {0: 1, 1: 240}
+Performance on validation data - Confusion matrix
+[[77748  1574]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.28029264]
+Recall [0.98015683 0.99837134]
+F-score [0.98997269 0.43770082]
+Support [79322   614]
+**************************************
+Iteration number   241
+Class weights  {0: 1, 1: 241}
+Performance on validation data - Confusion matrix
+[[77743  1579]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.27965328]
+Recall [0.98009379 0.99837134]
+F-score [0.98994053 0.43692088]
+Support [79322   614]
+**************************************
+Iteration number   242
+Class weights  {0: 1, 1: 242}
+Performance on validation data - Confusion matrix
+[[77737  1585]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.2788899 ]
+Recall [0.98001815 0.99837134]
+F-score [0.98990195 0.43598862]
+Support [79322   614]
+**************************************
+Iteration number   243
+Class weights  {0: 1, 1: 243}
+Performance on validation data - Confusion matrix
+[[77731  1591]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998714 0.27813067]
+Recall [0.97994251 0.99837134]
+F-score [0.98986336 0.43506033]
+Support [79322   614]
+**************************************
+Iteration number   244
+Class weights  {0: 1, 1: 244}
+Performance on validation data - Confusion matrix
+[[77723  1599]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27712477]
+Recall [0.97984166 0.99837134]
+F-score [0.9898119  0.43382873]
+Support [79322   614]
+**************************************
+Iteration number   245
+Class weights  {0: 1, 1: 245}
+Performance on validation data - Confusion matrix
+[[77719  1603]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27662455]
+Recall [0.97979123 0.99837134]
+F-score [0.98978617 0.43321555]
+Support [79322   614]
+**************************************
+Iteration number   246
+Class weights  {0: 1, 1: 246}
+Performance on validation data - Confusion matrix
+[[77718  1604]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27649977]
+Recall [0.97977862 0.99837134]
+F-score [0.98977974 0.43306252]
+Support [79322   614]
+**************************************
+Iteration number   247
+Class weights  {0: 1, 1: 247}
+Performance on validation data - Confusion matrix
+[[77717  1605]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27637511]
+Recall [0.97976602 0.99837134]
+F-score [0.98977331 0.4329096 ]
+Support [79322   614]
+**************************************
+Iteration number   248
+Class weights  {0: 1, 1: 248}
+Performance on validation data - Confusion matrix
+[[77714  1608]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.2760018 ]
+Recall [0.9797282  0.99837134]
+F-score [0.98975401 0.4324515 ]
+Support [79322   614]
+**************************************
+Iteration number   249
+Class weights  {0: 1, 1: 249}
+Performance on validation data - Confusion matrix
+[[77706  1616]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27501122]
+Recall [0.97962734 0.99837134]
+F-score [0.98970254 0.43123461]
+Support [79322   614]
+**************************************
+Iteration number   250
+Class weights  {0: 1, 1: 250}
+Performance on validation data - Confusion matrix
+[[77701  1621]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.2743957 ]
+Recall [0.97956431 0.99837134]
+F-score [0.98967037 0.43047753]
+Support [79322   614]
+**************************************
+Iteration number   251
+Class weights  {0: 1, 1: 251}
+Performance on validation data - Confusion matrix
+[[77699  1623]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27415027]
+Recall [0.97953909 0.99837134]
+F-score [0.9896575  0.43017544]
+Support [79322   614]
+**************************************
+Iteration number   252
+Class weights  {0: 1, 1: 252}
+Performance on validation data - Confusion matrix
+[[77695  1627]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27366071]
+Recall [0.97948867 0.99837134]
+F-score [0.98963176 0.42957253]
+Support [79322   614]
+**************************************
+Iteration number   253
+Class weights  {0: 1, 1: 253}
+Performance on validation data - Confusion matrix
+[[77691  1631]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27317291]
+Recall [0.97943824 0.99837134]
+F-score [0.98960602 0.42897131]
+Support [79322   614]
+**************************************
+Iteration number   254
+Class weights  {0: 1, 1: 254}
+Performance on validation data - Confusion matrix
+[[77688  1634]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27280819]
+Recall [0.97940042 0.99837134]
+F-score [0.98958672 0.4285215 ]
+Support [79322   614]
+**************************************
+Iteration number   255
+Class weights  {0: 1, 1: 255}
+Performance on validation data - Confusion matrix
+[[77686  1636]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27256558]
+Recall [0.9793752  0.99837134]
+F-score [0.98957385 0.42822214]
+Support [79322   614]
+**************************************
+Iteration number   256
+Class weights  {0: 1, 1: 256}
+Performance on validation data - Confusion matrix
+[[77682  1640]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27208167]
+Recall [0.97932478 0.99837134]
+F-score [0.9895481  0.42762469]
+Support [79322   614]
+**************************************
+Iteration number   257
+Class weights  {0: 1, 1: 257}
+Performance on validation data - Confusion matrix
+[[77681  1641]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27196096]
+Recall [0.97931217 0.99837134]
+F-score [0.98954167 0.42747559]
+Support [79322   614]
+**************************************
+Iteration number   258
+Class weights  {0: 1, 1: 258}
+Performance on validation data - Confusion matrix
+[[77677  1645]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27147919]
+Recall [0.97926174 0.99837134]
+F-score [0.98951592 0.42688022]
+Support [79322   614]
+**************************************
+Iteration number   259
+Class weights  {0: 1, 1: 259}
+Performance on validation data - Confusion matrix
+[[77675  1647]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27123894]
+Recall [0.97923653 0.99837134]
+F-score [0.98950305 0.42658316]
+Support [79322   614]
+**************************************
+Iteration number   260
+Class weights  {0: 1, 1: 260}
+Performance on validation data - Confusion matrix
+[[77672  1650]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27087936]
+Recall [0.97919871 0.99837134]
+F-score [0.98948374 0.42613834]
+Support [79322   614]
+**************************************
+Iteration number   261
+Class weights  {0: 1, 1: 261}
+Performance on validation data - Confusion matrix
+[[77670  1652]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998713 0.27064018]
+Recall [0.9791735  0.99837134]
+F-score [0.98947087 0.42584231]
+Support [79322   614]
+**************************************
+Iteration number   262
+Class weights  {0: 1, 1: 262}
+Performance on validation data - Confusion matrix
+[[77668  1654]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.27040141]
+Recall [0.97914828 0.99837134]
+F-score [0.98945799 0.42554669]
+Support [79322   614]
+**************************************
+Iteration number   263
+Class weights  {0: 1, 1: 263}
+Performance on validation data - Confusion matrix
+[[77667  1655]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.27028219]
+Recall [0.97913567 0.99837134]
+F-score [0.98945156 0.42539903]
+Support [79322   614]
+**************************************
+Iteration number   264
+Class weights  {0: 1, 1: 264}
+Performance on validation data - Confusion matrix
+[[77665  1657]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.27004405]
+Recall [0.97911046 0.99837134]
+F-score [0.98943868 0.42510402]
+Support [79322   614]
+**************************************
+Iteration number   265
+Class weights  {0: 1, 1: 265}
+Performance on validation data - Confusion matrix
+[[77660  1662]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26945055]
+Recall [0.97904743 0.99837134]
+F-score [0.9894065  0.42436829]
+Support [79322   614]
+**************************************
+Iteration number   266
+Class weights  {0: 1, 1: 266}
+Performance on validation data - Confusion matrix
+[[77658  1664]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26921388]
+Recall [0.97902221 0.99837134]
+F-score [0.98939362 0.42407471]
+Support [79322   614]
+**************************************
+Iteration number   267
+Class weights  {0: 1, 1: 267}
+Performance on validation data - Confusion matrix
+[[77653  1669]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26862401]
+Recall [0.97895918 0.99837134]
+F-score [0.98936143 0.42334254]
+Support [79322   614]
+**************************************
+Iteration number   268
+Class weights  {0: 1, 1: 268}
+Performance on validation data - Confusion matrix
+[[77647  1675]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26791958]
+Recall [0.97888354 0.99837134]
+F-score [0.9893228  0.42246726]
+Support [79322   614]
+**************************************
+Iteration number   269
+Class weights  {0: 1, 1: 269}
+Performance on validation data - Confusion matrix
+[[77642  1680]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26733537]
+Recall [0.9788205  0.99837134]
+F-score [0.98929061 0.42174063]
+Support [79322   614]
+**************************************
+Iteration number   270
+Class weights  {0: 1, 1: 270}
+Performance on validation data - Confusion matrix
+[[77639  1683]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26698606]
+Recall [0.97878268 0.99837134]
+F-score [0.98927129 0.42130584]
+Support [79322   614]
+**************************************
+Iteration number   271
+Class weights  {0: 1, 1: 271}
+Performance on validation data - Confusion matrix
+[[77637  1685]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.2667537 ]
+Recall [0.97875747 0.99837134]
+F-score [0.98925841 0.42101648]
+Support [79322   614]
+**************************************
+Iteration number   272
+Class weights  {0: 1, 1: 272}
+Performance on validation data - Confusion matrix
+[[77634  1688]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26640591]
+Recall [0.97871965 0.99837134]
+F-score [0.98923909 0.42058319]
+Support [79322   614]
+**************************************
+Iteration number   273
+Class weights  {0: 1, 1: 273}
+Performance on validation data - Confusion matrix
+[[77632  1690]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26617455]
+Recall [0.97869444 0.99837134]
+F-score [0.98922621 0.42029482]
+Support [79322   614]
+**************************************
+Iteration number   274
+Class weights  {0: 1, 1: 274}
+Performance on validation data - Confusion matrix
+[[77630  1692]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.2659436 ]
+Recall [0.97866922 0.99837134]
+F-score [0.98921333 0.42000685]
+Support [79322   614]
+**************************************
+Iteration number   275
+Class weights  {0: 1, 1: 275}
+Performance on validation data - Confusion matrix
+[[77626  1696]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26548289]
+Recall [0.97861879 0.99837134]
+F-score [0.98918757 0.41943209]
+Support [79322   614]
+**************************************
+Iteration number   276
+Class weights  {0: 1, 1: 276}
+Performance on validation data - Confusion matrix
+[[77620  1702]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26479482]
+Recall [0.97854315 0.99837134]
+F-score [0.98914893 0.41857289]
+Support [79322   614]
+**************************************
+Iteration number   277
+Class weights  {0: 1, 1: 277}
+Performance on validation data - Confusion matrix
+[[77619  1703]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26468048]
+Recall [0.97853055 0.99837134]
+F-score [0.98914249 0.41843003]
+Support [79322   614]
+**************************************
+Iteration number   278
+Class weights  {0: 1, 1: 278}
+Performance on validation data - Confusion matrix
+[[77615  1707]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998712 0.26422414]
+Recall [0.97848012 0.99837134]
+F-score [0.98911672 0.41785958]
+Support [79322   614]
+**************************************
+Iteration number   279
+Class weights  {0: 1, 1: 279}
+Performance on validation data - Confusion matrix
+[[77607  1715]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26331615]
+Recall [0.97837926 0.99837134]
+F-score [0.98906519 0.41672332]
+Support [79322   614]
+**************************************
+Iteration number   280
+Class weights  {0: 1, 1: 280}
+Performance on validation data - Confusion matrix
+[[77604  1718]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26297726]
+Recall [0.97834144 0.99837134]
+F-score [0.98904586 0.41629881]
+Support [79322   614]
+**************************************
+Iteration number   281
+Class weights  {0: 1, 1: 281}
+Performance on validation data - Confusion matrix
+[[77599  1723]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26241438]
+Recall [0.97827841 0.99837134]
+F-score [0.98901365 0.41559322]
+Support [79322   614]
+**************************************
+Iteration number   282
+Class weights  {0: 1, 1: 282}
+Performance on validation data - Confusion matrix
+[[77595  1727]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26196581]
+Recall [0.97822798 0.99837134]
+F-score [0.98898788 0.41503047]
+Support [79322   614]
+**************************************
+Iteration number   283
+Class weights  {0: 1, 1: 283}
+Performance on validation data - Confusion matrix
+[[77592  1730]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26163039]
+Recall [0.97819016 0.99837134]
+F-score [0.98896855 0.4146094 ]
+Support [79322   614]
+**************************************
+Iteration number   284
+Class weights  {0: 1, 1: 284}
+Performance on validation data - Confusion matrix
+[[77591  1731]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26151877]
+Recall [0.97817755 0.99837134]
+F-score [0.98896211 0.41446924]
+Support [79322   614]
+**************************************
+Iteration number   285
+Class weights  {0: 1, 1: 285}
+Performance on validation data - Confusion matrix
+[[77589  1733]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26129582]
+Recall [0.97815234 0.99837134]
+F-score [0.98894922 0.41418919]
+Support [79322   614]
+**************************************
+Iteration number   286
+Class weights  {0: 1, 1: 286}
+Performance on validation data - Confusion matrix
+[[77580  1742]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.26029724]
+Recall [0.97803888 0.99837134]
+F-score [0.98889123 0.41293365]
+Support [79322   614]
+**************************************
+Iteration number   287
+Class weights  {0: 1, 1: 287}
+Performance on validation data - Confusion matrix
+[[77574  1748]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.25963575]
+Recall [0.97796324 0.99837134]
+F-score [0.98885256 0.41210084]
+Support [79322   614]
+**************************************
+Iteration number   288
+Class weights  {0: 1, 1: 288}
+Performance on validation data - Confusion matrix
+[[77570  1752]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.25919662]
+Recall [0.97791281 0.99837134]
+F-score [0.98882678 0.4115475 ]
+Support [79322   614]
+**************************************
+Iteration number   289
+Class weights  {0: 1, 1: 289}
+Performance on validation data - Confusion matrix
+[[77568  1754]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.25897761]
+Recall [0.9778876  0.99837134]
+F-score [0.98881389 0.41127139]
+Support [79322   614]
+**************************************
+Iteration number   290
+Class weights  {0: 1, 1: 290}
+Performance on validation data - Confusion matrix
+[[77561  1761]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.25821398]
+Recall [0.97779935 0.99837134]
+F-score [0.98876877 0.4103079 ]
+Support [79322   614]
+**************************************
+Iteration number   291
+Class weights  {0: 1, 1: 291}
+Performance on validation data - Confusion matrix
+[[77557  1765]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.25777965]
+Recall [0.97774892 0.99837134]
+F-score [0.98874299 0.40975936]
+Support [79322   614]
+**************************************
+Iteration number   292
+Class weights  {0: 1, 1: 292}
+Performance on validation data - Confusion matrix
+[[77551  1771]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998711 0.25713087]
+Recall [0.97767328 0.99837134]
+F-score [0.98870431 0.40893929]
+Support [79322   614]
+**************************************
+Iteration number   293
+Class weights  {0: 1, 1: 293}
+Performance on validation data - Confusion matrix
+[[77547  1775]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25670017]
+Recall [0.97762285 0.99837134]
+F-score [0.98867852 0.4083944 ]
+Support [79322   614]
+**************************************
+Iteration number   294
+Class weights  {0: 1, 1: 294}
+Performance on validation data - Confusion matrix
+[[77540  1782]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871 0.2559499]
+Recall [0.97753461 0.99837134]
+F-score [0.98863339 0.40744433]
+Support [79322   614]
+**************************************
+Iteration number   295
+Class weights  {0: 1, 1: 295}
+Performance on validation data - Confusion matrix
+[[77536  1786]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25552313]
+Recall [0.97748418 0.99837134]
+F-score [0.9886076  0.40690342]
+Support [79322   614]
+**************************************
+Iteration number   296
+Class weights  {0: 1, 1: 296}
+Performance on validation data - Confusion matrix
+[[77533  1789]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871 0.255204 ]
+Recall [0.97744636 0.99837134]
+F-score [0.98858826 0.40649867]
+Support [79322   614]
+**************************************
+Iteration number   297
+Class weights  {0: 1, 1: 297}
+Performance on validation data - Confusion matrix
+[[77529  1793]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25477972]
+Recall [0.97739593 0.99837134]
+F-score [0.98856247 0.40596026]
+Support [79322   614]
+**************************************
+Iteration number   298
+Class weights  {0: 1, 1: 298}
+Performance on validation data - Confusion matrix
+[[77523  1799]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25414594]
+Recall [0.97732029 0.99837134]
+F-score [0.98852377 0.40515532]
+Support [79322   614]
+**************************************
+Iteration number   299
+Class weights  {0: 1, 1: 299}
+Performance on validation data - Confusion matrix
+[[77520  1802]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25383023]
+Recall [0.97728247 0.99837134]
+F-score [0.98850443 0.40475404]
+Support [79322   614]
+**************************************
+Iteration number   300
+Class weights  {0: 1, 1: 300}
+Performance on validation data - Confusion matrix
+[[77517  1805]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871 0.2535153]
+Recall [0.97724465 0.99837134]
+F-score [0.98848508 0.40435356]
+Support [79322   614]
+**************************************
+Iteration number   301
+Class weights  {0: 1, 1: 301}
+Performance on validation data - Confusion matrix
+[[77515  1807]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25330579]
+Recall [0.97721943 0.99837134]
+F-score [0.98847218 0.40408701]
+Support [79322   614]
+**************************************
+Iteration number   302
+Class weights  {0: 1, 1: 302}
+Performance on validation data - Confusion matrix
+[[77513  1809]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25309661]
+Recall [0.97719422 0.99837134]
+F-score [0.98845928 0.40382082]
+Support [79322   614]
+**************************************
+Iteration number   303
+Class weights  {0: 1, 1: 303}
+Performance on validation data - Confusion matrix
+[[77507  1815]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25247117]
+Recall [0.97711858 0.99837134]
+F-score [0.98842058 0.40302433]
+Support [79322   614]
+**************************************
+Iteration number   304
+Class weights  {0: 1, 1: 304}
+Performance on validation data - Confusion matrix
+[[77504  1818]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25215961]
+Recall [0.97708076 0.99837134]
+F-score [0.98840123 0.40262726]
+Support [79322   614]
+**************************************
+Iteration number   305
+Class weights  {0: 1, 1: 305}
+Performance on validation data - Confusion matrix
+[[77499  1823]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25164204]
+Recall [0.97701773 0.99837134]
+F-score [0.98836898 0.40196721]
+Support [79322   614]
+**************************************
+Iteration number   306
+Class weights  {0: 1, 1: 306}
+Performance on validation data - Confusion matrix
+[[77498  1824]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25153878]
+Recall [0.97700512 0.99837134]
+F-score [0.98836253 0.40183546]
+Support [79322   614]
+**************************************
+Iteration number   307
+Class weights  {0: 1, 1: 307}
+Performance on validation data - Confusion matrix
+[[77493  1829]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25102375]
+Recall [0.97694208 0.99837134]
+F-score [0.98833027 0.40117801]
+Support [79322   614]
+**************************************
+Iteration number   308
+Class weights  {0: 1, 1: 308}
+Performance on validation data - Confusion matrix
+[[77489  1833]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.9999871  0.25061325]
+Recall [0.97689166 0.99837134]
+F-score [0.98830447 0.40065359]
+Support [79322   614]
+**************************************
+Iteration number   309
+Class weights  {0: 1, 1: 309}
+Performance on validation data - Confusion matrix
+[[77482  1840]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24989808]
+Recall [0.97680341 0.99837134]
+F-score [0.9882593  0.39973916]
+Support [79322   614]
+**************************************
+Iteration number   310
+Class weights  {0: 1, 1: 310}
+Performance on validation data - Confusion matrix
+[[77476  1846]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24928833]
+Recall [0.97672777 0.99837134]
+F-score [0.98822059 0.39895867]
+Support [79322   614]
+**************************************
+Iteration number   311
+Class weights  {0: 1, 1: 311}
+Performance on validation data - Confusion matrix
+[[77471  1851]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24878247]
+Recall [0.97666473 0.99837134]
+F-score [0.98818832 0.39831059]
+Support [79322   614]
+**************************************
+Iteration number   312
+Class weights  {0: 1, 1: 312}
+Performance on validation data - Confusion matrix
+[[77468  1854]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24847994]
+Recall [0.97662691 0.99837134]
+F-score [0.98816896 0.39792275]
+Support [79322   614]
+**************************************
+Iteration number   313
+Class weights  {0: 1, 1: 313}
+Performance on validation data - Confusion matrix
+[[77463  1859]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24797735]
+Recall [0.97656388 0.99837134]
+F-score [0.9881367  0.39727803]
+Support [79322   614]
+**************************************
+Iteration number   314
+Class weights  {0: 1, 1: 314}
+Performance on validation data - Confusion matrix
+[[77460  1862]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24767677]
+Recall [0.97652606 0.99837134]
+F-score [0.98811733 0.3968922 ]
+Support [79322   614]
+**************************************
+Iteration number   315
+Class weights  {0: 1, 1: 315}
+Performance on validation data - Confusion matrix
+[[77455  1867]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24717742]
+Recall [0.97646302 0.99837134]
+F-score [0.98808506 0.39625081]
+Support [79322   614]
+**************************************
+Iteration number   316
+Class weights  {0: 1, 1: 316}
+Performance on validation data - Confusion matrix
+[[77445  1877]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24618474]
+Recall [0.97633696 0.99837134]
+F-score [0.98802051 0.39497423]
+Support [79322   614]
+**************************************
+Iteration number   317
+Class weights  {0: 1, 1: 317}
+Performance on validation data - Confusion matrix
+[[77440  1882]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24569138]
+Recall [0.97627392 0.99837134]
+F-score [0.98798824 0.39433902]
+Support [79322   614]
+**************************************
+Iteration number   318
+Class weights  {0: 1, 1: 318}
+Performance on validation data - Confusion matrix
+[[77436  1886]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.24529812]
+Recall [0.97622349 0.99837134]
+F-score [0.98796241 0.39383232]
+Support [79322   614]
+**************************************
+Iteration number   319
+Class weights  {0: 1, 1: 319}
+Performance on validation data - Confusion matrix
+[[77433  1889]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998709 0.245004  ]
+Recall [0.97618567 0.99837134]
+F-score [0.98794305 0.39345315]
+Support [79322   614]
+**************************************
+Iteration number   320
+Class weights  {0: 1, 1: 320}
+Performance on validation data - Confusion matrix
+[[77428  1894]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24451536]
+Recall [0.97612264 0.99837134]
+F-score [0.98791076 0.39282281]
+Support [79322   614]
+**************************************
+Iteration number   321
+Class weights  {0: 1, 1: 321}
+Performance on validation data - Confusion matrix
+[[77427  1895]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24441786]
+Recall [0.97611003 0.99837134]
+F-score [0.98790431 0.39269699]
+Support [79322   614]
+**************************************
+Iteration number   322
+Class weights  {0: 1, 1: 322}
+Performance on validation data - Confusion matrix
+[[77423  1899]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24402866]
+Recall [0.97605961 0.99837134]
+F-score [0.98787848 0.3921945 ]
+Support [79322   614]
+**************************************
+Iteration number   323
+Class weights  {0: 1, 1: 323}
+Performance on validation data - Confusion matrix
+[[77416  1906]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24335054]
+Recall [0.97597136 0.99837134]
+F-score [0.98783328 0.39131823]
+Support [79322   614]
+**************************************
+Iteration number   324
+Class weights  {0: 1, 1: 324}
+Performance on validation data - Confusion matrix
+[[77413  1909]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24306106]
+Recall [0.97593354 0.99837134]
+F-score [0.9878139  0.39094388]
+Support [79322   614]
+**************************************
+Iteration number   325
+Class weights  {0: 1, 1: 325}
+Performance on validation data - Confusion matrix
+[[77410  1912]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24277228]
+Recall [0.97589572 0.99837134]
+F-score [0.98779453 0.39057025]
+Support [79322   614]
+**************************************
+Iteration number   326
+Class weights  {0: 1, 1: 326}
+Performance on validation data - Confusion matrix
+[[77405  1917]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24229249]
+Recall [0.97583268 0.99837134]
+F-score [0.98776224 0.38994911]
+Support [79322   614]
+**************************************
+Iteration number   327
+Class weights  {0: 1, 1: 327}
+Performance on validation data - Confusion matrix
+[[77402  1920]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24200553]
+Recall [0.97579486 0.99837134]
+F-score [0.98774286 0.38957738]
+Support [79322   614]
+**************************************
+Iteration number   328
+Class weights  {0: 1, 1: 328}
+Performance on validation data - Confusion matrix
+[[77397  1925]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24152876]
+Recall [0.97573183 0.99837134]
+F-score [0.98771057 0.38895939]
+Support [79322   614]
+**************************************
+Iteration number   329
+Class weights  {0: 1, 1: 329}
+Performance on validation data - Confusion matrix
+[[77392  1930]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24105387]
+Recall [0.97566879 0.99837134]
+F-score [0.98767827 0.38834336]
+Support [79322   614]
+**************************************
+Iteration number   330
+Class weights  {0: 1, 1: 330}
+Performance on validation data - Confusion matrix
+[[77390  1932]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24086444]
+Recall [0.97564358 0.99837134]
+F-score [0.98766535 0.3880975 ]
+Support [79322   614]
+**************************************
+Iteration number   331
+Class weights  {0: 1, 1: 331}
+Performance on validation data - Confusion matrix
+[[77386  1936]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24048647]
+Recall [0.97559315 0.99837134]
+F-score [0.98763951 0.3876067 ]
+Support [79322   614]
+**************************************
+Iteration number   332
+Class weights  {0: 1, 1: 332}
+Performance on validation data - Confusion matrix
+[[77381  1941]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.24001566]
+Recall [0.97553012 0.99837134]
+F-score [0.98760721 0.38699495]
+Support [79322   614]
+**************************************
+Iteration number   333
+Class weights  {0: 1, 1: 333}
+Performance on validation data - Confusion matrix
+[[77378  1944]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.23973406]
+Recall [0.9754923  0.99837134]
+F-score [0.98758783 0.38662882]
+Support [79322   614]
+**************************************
+Iteration number   334
+Class weights  {0: 1, 1: 334}
+Performance on validation data - Confusion matrix
+[[77373  1949]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.2392662 ]
+Recall [0.97542926 0.99837134]
+F-score [0.98755552 0.38602015]
+Support [79322   614]
+**************************************
+Iteration number   335
+Class weights  {0: 1, 1: 335}
+Performance on validation data - Confusion matrix
+[[77371  1951]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998708 0.23907956]
+Recall [0.97540405 0.99837134]
+F-score [0.9875426  0.38577722]
+Support [79322   614]
+**************************************
+Iteration number   336
+Class weights  {0: 1, 1: 336}
+Performance on validation data - Confusion matrix
+[[77365  1957]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.2385214 ]
+Recall [0.97532841 0.99837134]
+F-score [0.98750383 0.38505025]
+Support [79322   614]
+**************************************
+Iteration number   337
+Class weights  {0: 1, 1: 337}
+Performance on validation data - Confusion matrix
+[[77360  1962]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23805825]
+Recall [0.97526537 0.99837134]
+F-score [0.98747152 0.38444653]
+Support [79322   614]
+**************************************
+Iteration number   338
+Class weights  {0: 1, 1: 338}
+Performance on validation data - Confusion matrix
+[[77357  1965]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23778123]
+Recall [0.97522755 0.99837134]
+F-score [0.98745213 0.38408521]
+Support [79322   614]
+**************************************
+Iteration number   339
+Class weights  {0: 1, 1: 339}
+Performance on validation data - Confusion matrix
+[[77354  1968]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23750484]
+Recall [0.97518973 0.99837134]
+F-score [0.98743274 0.38372457]
+Support [79322   614]
+**************************************
+Iteration number   340
+Class weights  {0: 1, 1: 340}
+Performance on validation data - Confusion matrix
+[[77349  1973]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23704563]
+Recall [0.9751267  0.99837134]
+F-score [0.98740043 0.383125  ]
+Support [79322   614]
+**************************************
+Iteration number   341
+Class weights  {0: 1, 1: 341}
+Performance on validation data - Confusion matrix
+[[77347  1975]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23686244]
+Recall [0.97510149 0.99837134]
+F-score [0.9873875 0.3828857]
+Support [79322   614]
+**************************************
+Iteration number   342
+Class weights  {0: 1, 1: 342}
+Performance on validation data - Confusion matrix
+[[77339  1983]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23613251]
+Recall [0.97500063 0.99837134]
+F-score [0.98733579 0.38193146]
+Support [79322   614]
+**************************************
+Iteration number   343
+Class weights  {0: 1, 1: 343}
+Performance on validation data - Confusion matrix
+[[77338  1984]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23604159]
+Recall [0.97498802 0.99837134]
+F-score [0.98732933 0.38181252]
+Support [79322   614]
+**************************************
+Iteration number   344
+Class weights  {0: 1, 1: 344}
+Performance on validation data - Confusion matrix
+[[77334  1988]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23567859]
+Recall [0.9749376  0.99837134]
+F-score [0.98730347 0.38133748]
+Support [79322   614]
+**************************************
+Iteration number   345
+Class weights  {0: 1, 1: 345}
+Performance on validation data - Confusion matrix
+[[77334  1988]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23567859]
+Recall [0.9749376  0.99837134]
+F-score [0.98730347 0.38133748]
+Support [79322   614]
+**************************************
+Iteration number   346
+Class weights  {0: 1, 1: 346}
+Performance on validation data - Confusion matrix
+[[77332  1990]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.2354975 ]
+Recall [0.97491238 0.99837134]
+F-score [0.98729054 0.3811004 ]
+Support [79322   614]
+**************************************
+Iteration number   347
+Class weights  {0: 1, 1: 347}
+Performance on validation data - Confusion matrix
+[[77330  1992]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.2353167 ]
+Recall [0.97488717 0.99837134]
+F-score [0.98727761 0.38086362]
+Support [79322   614]
+**************************************
+Iteration number   348
+Class weights  {0: 1, 1: 348}
+Performance on validation data - Confusion matrix
+[[77326  1996]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23495592]
+Recall [0.97483674 0.99837134]
+F-score [0.98725175 0.38039094]
+Support [79322   614]
+**************************************
+Iteration number   349
+Class weights  {0: 1, 1: 349}
+Performance on validation data - Confusion matrix
+[[77321  2001]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.2345065 ]
+Recall [0.97477371 0.99837134]
+F-score [0.98721943 0.37980173]
+Support [79322   614]
+**************************************
+Iteration number   350
+Class weights  {0: 1, 1: 350}
+Performance on validation data - Confusion matrix
+[[77317  2005]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.2341482 ]
+Recall [0.97472328 0.99837134]
+F-score [0.98719356 0.37933168]
+Support [79322   614]
+**************************************
+Iteration number   351
+Class weights  {0: 1, 1: 351}
+Performance on validation data - Confusion matrix
+[[77315  2007]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.23396947]
+Recall [0.97469807 0.99837134]
+F-score [0.98718063 0.37909709]
+Support [79322   614]
+**************************************
+Iteration number   352
+Class weights  {0: 1, 1: 352}
+Performance on validation data - Confusion matrix
+[[77311  2011]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998707 0.2336128 ]
+Recall [0.97464764 0.99837134]
+F-score [0.98715477 0.37862878]
+Support [79322   614]
+**************************************
+Iteration number   353
+Class weights  {0: 1, 1: 353}
+Performance on validation data - Confusion matrix
+[[77305  2017]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23307985]
+Recall [0.974572   0.99837134]
+F-score [0.98711597 0.37792848]
+Support [79322   614]
+**************************************
+Iteration number   354
+Class weights  {0: 1, 1: 354}
+Performance on validation data - Confusion matrix
+[[77300  2022]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23263757]
+Recall [0.97450896 0.99837134]
+F-score [0.98708363 0.37734688]
+Support [79322   614]
+**************************************
+Iteration number   355
+Class weights  {0: 1, 1: 355}
+Performance on validation data - Confusion matrix
+[[77297  2025]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23237301]
+Recall [0.97447114 0.99837134]
+F-score [0.98706423 0.37699877]
+Support [79322   614]
+**************************************
+Iteration number   356
+Class weights  {0: 1, 1: 356}
+Performance on validation data - Confusion matrix
+[[77291  2031]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23184569]
+Recall [0.9743955  0.99837134]
+F-score [0.98702543 0.37630448]
+Support [79322   614]
+**************************************
+Iteration number   357
+Class weights  {0: 1, 1: 357}
+Performance on validation data - Confusion matrix
+[[77286  2036]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23140808]
+Recall [0.97433247 0.99837134]
+F-score [0.98699308 0.37572786]
+Support [79322   614]
+**************************************
+Iteration number   358
+Class weights  {0: 1, 1: 358}
+Performance on validation data - Confusion matrix
+[[77282  2040]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23105918]
+Recall [0.97428204 0.99837134]
+F-score [0.98696721 0.37526783]
+Support [79322   614]
+**************************************
+Iteration number   359
+Class weights  {0: 1, 1: 359}
+Performance on validation data - Confusion matrix
+[[77279  2043]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23079819]
+Recall [0.97424422 0.99837134]
+F-score [0.9869478  0.37492355]
+Support [79322   614]
+**************************************
+Iteration number   360
+Class weights  {0: 1, 1: 360}
+Performance on validation data - Confusion matrix
+[[77273  2049]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23027799]
+Recall [0.97416858 0.99837134]
+F-score [0.98690899 0.37423687]
+Support [79322   614]
+**************************************
+Iteration number   361
+Class weights  {0: 1, 1: 361}
+Performance on validation data - Confusion matrix
+[[77271  2051]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.23010511]
+Recall [0.97414337 0.99837134]
+F-score [0.98689605 0.37400854]
+Support [79322   614]
+**************************************
+Iteration number   362
+Class weights  {0: 1, 1: 362}
+Performance on validation data - Confusion matrix
+[[77268  2054]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.22984627]
+Recall [0.97410554 0.99837134]
+F-score [0.98687664 0.37366657]
+Support [79322   614]
+**************************************
+Iteration number   363
+Class weights  {0: 1, 1: 363}
+Performance on validation data - Confusion matrix
+[[77268  2054]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.22984627]
+Recall [0.97410554 0.99837134]
+F-score [0.98687664 0.37366657]
+Support [79322   614]
+**************************************
+Iteration number   364
+Class weights  {0: 1, 1: 364}
+Performance on validation data - Confusion matrix
+[[77265  2057]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.22958801]
+Recall [0.97406772 0.99837134]
+F-score [0.98685723 0.37332521]
+Support [79322   614]
+**************************************
+Iteration number   365
+Class weights  {0: 1, 1: 365}
+Performance on validation data - Confusion matrix
+[[77259  2063]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.22907324]
+Recall [0.97399208 0.99837134]
+F-score [0.98681841 0.37264438]
+Support [79322   614]
+**************************************
+Iteration number   366
+Class weights  {0: 1, 1: 366}
+Performance on validation data - Confusion matrix
+[[77257  2065]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.22890217]
+Recall [0.97396687 0.99837134]
+F-score [0.98680547 0.37241798]
+Support [79322   614]
+**************************************
+Iteration number   367
+Class weights  {0: 1, 1: 367}
+Performance on validation data - Confusion matrix
+[[77254  2068]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.22864603]
+Recall [0.97392905 0.99837134]
+F-score [0.98678605 0.37207891]
+Support [79322   614]
+**************************************
+Iteration number   368
+Class weights  {0: 1, 1: 368}
+Performance on validation data - Confusion matrix
+[[77249  2073]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998706 0.2282204 ]
+Recall [0.97386601 0.99837134]
+F-score [0.9867537  0.37151515]
+Support [79322   614]
+**************************************
+Iteration number   369
+Class weights  {0: 1, 1: 369}
+Performance on validation data - Confusion matrix
+[[77246  2076]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22796579]
+Recall [0.97382819 0.99837134]
+F-score [0.98673428 0.37117772]
+Support [79322   614]
+**************************************
+Iteration number   370
+Class weights  {0: 1, 1: 370}
+Performance on validation data - Confusion matrix
+[[77242  2080]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22762718]
+Recall [0.97377777 0.99837134]
+F-score [0.9867084  0.37072876]
+Support [79322   614]
+**************************************
+Iteration number   371
+Class weights  {0: 1, 1: 371}
+Performance on validation data - Confusion matrix
+[[77239  2083]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22737389]
+Recall [0.97373995 0.99837134]
+F-score [0.98668898 0.37039275]
+Support [79322   614]
+**************************************
+Iteration number   372
+Class weights  {0: 1, 1: 372}
+Performance on validation data - Confusion matrix
+[[77231  2091]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22670118]
+Recall [0.97363909 0.99837134]
+F-score [0.9866372 0.3694997]
+Support [79322   614]
+**************************************
+Iteration number   373
+Class weights  {0: 1, 1: 373}
+Performance on validation data - Confusion matrix
+[[77223  2099]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22603245]
+Recall [0.97353824 0.99837134]
+F-score [0.98658541 0.36861094]
+Support [79322   614]
+**************************************
+Iteration number   374
+Class weights  {0: 1, 1: 374}
+Performance on validation data - Confusion matrix
+[[77221  2101]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22586588]
+Recall [0.97351302 0.99837134]
+F-score [0.98657247 0.36838942]
+Support [79322   614]
+**************************************
+Iteration number   375
+Class weights  {0: 1, 1: 375}
+Performance on validation data - Confusion matrix
+[[77217  2105]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22553348]
+Recall [0.9734626  0.99837134]
+F-score [0.98654657 0.36794718]
+Support [79322   614]
+**************************************
+Iteration number   376
+Class weights  {0: 1, 1: 376}
+Performance on validation data - Confusion matrix
+[[77209  2113]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22487161]
+Recall [0.97336174 0.99837134]
+F-score [0.98649477 0.36706587]
+Support [79322   614]
+**************************************
+Iteration number   377
+Class weights  {0: 1, 1: 377}
+Performance on validation data - Confusion matrix
+[[77207  2115]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22470674]
+Recall [0.97333653 0.99837134]
+F-score [0.98648182 0.3668462 ]
+Support [79322   614]
+**************************************
+Iteration number   378
+Class weights  {0: 1, 1: 378}
+Performance on validation data - Confusion matrix
+[[77201  2121]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22421361]
+Recall [0.97326089 0.99837134]
+F-score [0.98644297 0.36618877]
+Support [79322   614]
+**************************************
+Iteration number   379
+Class weights  {0: 1, 1: 379}
+Performance on validation data - Confusion matrix
+[[77198  2124]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22396785]
+Recall [0.97322307 0.99837134]
+F-score [0.98642355 0.36586094]
+Support [79322   614]
+**************************************
+Iteration number   380
+Class weights  {0: 1, 1: 380}
+Performance on validation data - Confusion matrix
+[[77192  2130]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22347794]
+Recall [0.97314742 0.99837134]
+F-score [0.98638469 0.36520703]
+Support [79322   614]
+**************************************
+Iteration number   381
+Class weights  {0: 1, 1: 381}
+Performance on validation data - Confusion matrix
+[[77190  2132]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998705 0.22331512]
+Recall [0.97312221 0.99837134]
+F-score [0.98637174 0.36498958]
+Support [79322   614]
+**************************************
+Iteration number   382
+Class weights  {0: 1, 1: 382}
+Performance on validation data - Confusion matrix
+[[77186  2136]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22299018]
+Recall [0.97307178 0.99837134]
+F-score [0.98634583 0.36455546]
+Support [79322   614]
+**************************************
+Iteration number   383
+Class weights  {0: 1, 1: 383}
+Performance on validation data - Confusion matrix
+[[77183  2139]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22274709]
+Recall [0.97303396 0.99837134]
+F-score [0.9863264  0.36423054]
+Support [79322   614]
+**************************************
+Iteration number   384
+Class weights  {0: 1, 1: 384}
+Performance on validation data - Confusion matrix
+[[77180  2142]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22250454]
+Recall [0.97299614 0.99837134]
+F-score [0.98630697 0.3639062 ]
+Support [79322   614]
+**************************************
+Iteration number   385
+Class weights  {0: 1, 1: 385}
+Performance on validation data - Confusion matrix
+[[77175  2147]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22210145]
+Recall [0.97293311 0.99837134]
+F-score [0.98627458 0.36336692]
+Support [79322   614]
+**************************************
+Iteration number   386
+Class weights  {0: 1, 1: 386}
+Performance on validation data - Confusion matrix
+[[77172  2150]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.2218603 ]
+Recall [0.97289529 0.99837134]
+F-score [0.98625515 0.36304412]
+Support [79322   614]
+**************************************
+Iteration number   387
+Class weights  {0: 1, 1: 387}
+Performance on validation data - Confusion matrix
+[[77164  2158]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22121978]
+Recall [0.97279443 0.99837134]
+F-score [0.98620333 0.36218612]
+Support [79322   614]
+**************************************
+Iteration number   388
+Class weights  {0: 1, 1: 388}
+Performance on validation data - Confusion matrix
+[[77159  2163]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22082133]
+Recall [0.9727314  0.99837134]
+F-score [0.98617093 0.36165192]
+Support [79322   614]
+**************************************
+Iteration number   389
+Class weights  {0: 1, 1: 389}
+Performance on validation data - Confusion matrix
+[[77154  2168]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.22042431]
+Recall [0.97266836 0.99837134]
+F-score [0.98613854 0.36111929]
+Support [79322   614]
+**************************************
+Iteration number   390
+Class weights  {0: 1, 1: 390}
+Performance on validation data - Confusion matrix
+[[77145  2177]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.21971326]
+Recall [0.9725549  0.99837134]
+F-score [0.98608022 0.36016451]
+Support [79322   614]
+**************************************
+Iteration number   391
+Class weights  {0: 1, 1: 391}
+Performance on validation data - Confusion matrix
+[[77141  2181]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.21939871]
+Recall [0.97250448 0.99837134]
+F-score [0.9860543  0.35974178]
+Support [79322   614]
+**************************************
+Iteration number   392
+Class weights  {0: 1, 1: 392}
+Performance on validation data - Confusion matrix
+[[77140  2182]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.21932021]
+Recall [0.97249187 0.99837134]
+F-score [0.98604782 0.35963626]
+Support [79322   614]
+**************************************
+Iteration number   393
+Class weights  {0: 1, 1: 393}
+Performance on validation data - Confusion matrix
+[[77134  2188]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998704 0.21885041]
+Recall [0.97241623 0.99837134]
+F-score [0.98600894 0.35900439]
+Support [79322   614]
+**************************************
+Iteration number   394
+Class weights  {0: 1, 1: 394}
+Performance on validation data - Confusion matrix
+[[77129  2193]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21846044]
+Recall [0.97235319 0.99837134]
+F-score [0.98597653 0.35847953]
+Support [79322   614]
+**************************************
+Iteration number   395
+Class weights  {0: 1, 1: 395}
+Performance on validation data - Confusion matrix
+[[77125  2197]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21814947]
+Recall [0.97230277 0.99837134]
+F-score [0.9859506  0.35806075]
+Support [79322   614]
+**************************************
+Iteration number   396
+Class weights  {0: 1, 1: 396}
+Performance on validation data - Confusion matrix
+[[77122  2200]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21791681]
+Recall [0.97226495 0.99837134]
+F-score [0.98593116 0.3577473 ]
+Support [79322   614]
+**************************************
+Iteration number   397
+Class weights  {0: 1, 1: 397}
+Performance on validation data - Confusion matrix
+[[77120  2202]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21776199]
+Recall [0.97223973 0.99837134]
+F-score [0.98591819 0.35753864]
+Support [79322   614]
+**************************************
+Iteration number   398
+Class weights  {0: 1, 1: 398}
+Performance on validation data - Confusion matrix
+[[77115  2207]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21737589]
+Recall [0.9721767  0.99837134]
+F-score [0.98588578 0.35701805]
+Support [79322   614]
+**************************************
+Iteration number   399
+Class weights  {0: 1, 1: 399}
+Performance on validation data - Confusion matrix
+[[77109  2213]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21691437]
+Recall [0.97210106 0.99837134]
+F-score [0.98584689 0.35639535]
+Support [79322   614]
+**************************************
+Iteration number   400
+Class weights  {0: 1, 1: 400}
+Performance on validation data - Confusion matrix
+[[77105  2217]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21660777]
+Recall [0.97205063 0.99837134]
+F-score [0.98582095 0.35598142]
+Support [79322   614]
+**************************************
+Iteration number   401
+Class weights  {0: 1, 1: 401}
+Performance on validation data - Confusion matrix
+[[77099  2223]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21614951]
+Recall [0.97197499 0.99837134]
+F-score [0.98578205 0.35536232]
+Support [79322   614]
+**************************************
+Iteration number   402
+Class weights  {0: 1, 1: 402}
+Performance on validation data - Confusion matrix
+[[77096  2226]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.2159211 ]
+Recall [0.97193717 0.99837134]
+F-score [0.9857626  0.35505358]
+Support [79322   614]
+**************************************
+Iteration number   403
+Class weights  {0: 1, 1: 403}
+Performance on validation data - Confusion matrix
+[[77092  2230]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21561731]
+Recall [0.97188674 0.99837134]
+F-score [0.98573666 0.35464275]
+Support [79322   614]
+**************************************
+Iteration number   404
+Class weights  {0: 1, 1: 404}
+Performance on validation data - Confusion matrix
+[[77086  2236]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21516322]
+Recall [0.9718111  0.99837134]
+F-score [0.98569775 0.3540283 ]
+Support [79322   614]
+**************************************
+Iteration number   405
+Class weights  {0: 1, 1: 405}
+Performance on validation data - Confusion matrix
+[[77084  2238]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21501228]
+Recall [0.97178589 0.99837134]
+F-score [0.98568478 0.35382395]
+Support [79322   614]
+**************************************
+Iteration number   406
+Class weights  {0: 1, 1: 406}
+Performance on validation data - Confusion matrix
+[[77082  2240]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21486155]
+Recall [0.97176067 0.99837134]
+F-score [0.98567181 0.35361984]
+Support [79322   614]
+**************************************
+Iteration number   407
+Class weights  {0: 1, 1: 407}
+Performance on validation data - Confusion matrix
+[[77075  2247]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21433566]
+Recall [0.97167242 0.99837134]
+F-score [0.98562641 0.35290731]
+Support [79322   614]
+**************************************
+Iteration number   408
+Class weights  {0: 1, 1: 408}
+Performance on validation data - Confusion matrix
+[[77072  2250]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998703 0.21411107]
+Recall [0.9716346  0.99837134]
+F-score [0.98560696 0.35260282]
+Support [79322   614]
+**************************************
+Iteration number   409
+Class weights  {0: 1, 1: 409}
+Performance on validation data - Confusion matrix
+[[77070  2252]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21396161]
+Recall [0.97160939 0.99837134]
+F-score [0.98559398 0.35240011]
+Support [79322   614]
+**************************************
+Iteration number   410
+Class weights  {0: 1, 1: 410}
+Performance on validation data - Confusion matrix
+[[77068  2254]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21381235]
+Recall [0.97158418 0.99837134]
+F-score [0.98558101 0.35219764]
+Support [79322   614]
+**************************************
+Iteration number   411
+Class weights  {0: 1, 1: 411}
+Performance on validation data - Confusion matrix
+[[77065  2257]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21358885]
+Recall [0.97154636 0.99837134]
+F-score [0.98556155 0.35189437]
+Support [79322   614]
+**************************************
+Iteration number   412
+Class weights  {0: 1, 1: 412}
+Performance on validation data - Confusion matrix
+[[77063  2259]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21344011]
+Recall [0.97152114 0.99837134]
+F-score [0.98554858 0.35169248]
+Support [79322   614]
+**************************************
+Iteration number   413
+Class weights  {0: 1, 1: 413}
+Performance on validation data - Confusion matrix
+[[77059  2263]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21314325]
+Recall [0.97147071 0.99837134]
+F-score [0.98552263 0.3512894 ]
+Support [79322   614]
+**************************************
+Iteration number   414
+Class weights  {0: 1, 1: 414}
+Performance on validation data - Confusion matrix
+[[77054  2268]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21277334]
+Recall [0.97140768 0.99837134]
+F-score [0.98549019 0.35078684]
+Support [79322   614]
+**************************************
+Iteration number   415
+Class weights  {0: 1, 1: 415}
+Performance on validation data - Confusion matrix
+[[77052  2270]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21262574]
+Recall [0.97138247 0.99837134]
+F-score [0.98547722 0.35058622]
+Support [79322   614]
+**************************************
+Iteration number   416
+Class weights  {0: 1, 1: 416}
+Performance on validation data - Confusion matrix
+[[77051  2271]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21255201]
+Recall [0.97136986 0.99837134]
+F-score [0.98547073 0.35048599]
+Support [79322   614]
+**************************************
+Iteration number   417
+Class weights  {0: 1, 1: 417}
+Performance on validation data - Confusion matrix
+[[77047  2275]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21225762]
+Recall [0.97131943 0.99837134]
+F-score [0.98544478 0.35008567]
+Support [79322   614]
+**************************************
+Iteration number   418
+Class weights  {0: 1, 1: 418}
+Performance on validation data - Confusion matrix
+[[77046  2276]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21218415]
+Recall [0.97130683 0.99837134]
+F-score [0.98543829 0.34998573]
+Support [79322   614]
+**************************************
+Iteration number   419
+Class weights  {0: 1, 1: 419}
+Performance on validation data - Confusion matrix
+[[77044  2278]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21203736]
+Recall [0.97128161 0.99837134]
+F-score [0.98542531 0.34978602]
+Support [79322   614]
+**************************************
+Iteration number   420
+Class weights  {0: 1, 1: 420}
+Performance on validation data - Confusion matrix
+[[77037  2285]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21152519]
+Recall [0.97119336 0.99837134]
+F-score [0.98537989 0.34908884]
+Support [79322   614]
+**************************************
+Iteration number   421
+Class weights  {0: 1, 1: 421}
+Performance on validation data - Confusion matrix
+[[77031  2291]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21108815]
+Recall [0.97111772 0.99837134]
+F-score [0.98534096 0.34849346]
+Support [79322   614]
+**************************************
+Iteration number   422
+Class weights  {0: 1, 1: 422}
+Performance on validation data - Confusion matrix
+[[77024  2298]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21058056]
+Recall [0.97102947 0.99837134]
+F-score [0.98529553 0.34780142]
+Support [79322   614]
+**************************************
+Iteration number   423
+Class weights  {0: 1, 1: 423}
+Performance on validation data - Confusion matrix
+[[77022  2300]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21043598]
+Recall [0.97100426 0.99837134]
+F-score [0.98528255 0.3476042 ]
+Support [79322   614]
+**************************************
+Iteration number   424
+Class weights  {0: 1, 1: 424}
+Performance on validation data - Confusion matrix
+[[77019  2303]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21021948]
+Recall [0.97096644 0.99837134]
+F-score [0.98526308 0.34730878]
+Support [79322   614]
+**************************************
+Iteration number   425
+Class weights  {0: 1, 1: 425}
+Performance on validation data - Confusion matrix
+[[77016  2306]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.21000343]
+Recall [0.97092862 0.99837134]
+F-score [0.98524361 0.34701387]
+Support [79322   614]
+**************************************
+Iteration number   426
+Class weights  {0: 1, 1: 426}
+Performance on validation data - Confusion matrix
+[[77011  2311]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998702 0.20964432]
+Recall [0.97086559 0.99837134]
+F-score [0.98521115 0.34652346]
+Support [79322   614]
+**************************************
+Iteration number   427
+Class weights  {0: 1, 1: 427}
+Performance on validation data - Confusion matrix
+[[77007  2315]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20935792]
+Recall [0.97081516 0.99837134]
+F-score [0.98518519 0.34613213]
+Support [79322   614]
+**************************************
+Iteration number   428
+Class weights  {0: 1, 1: 428}
+Performance on validation data - Confusion matrix
+[[77004  2318]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20914364]
+Recall [0.97077734 0.99837134]
+F-score [0.98516571 0.34583921]
+Support [79322   614]
+**************************************
+Iteration number   429
+Class weights  {0: 1, 1: 429}
+Performance on validation data - Confusion matrix
+[[76999  2323]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20878747]
+Recall [0.9707143  0.99837134]
+F-score [0.98513325 0.34535211]
+Support [79322   614]
+**************************************
+Iteration number   430
+Class weights  {0: 1, 1: 430}
+Performance on validation data - Confusion matrix
+[[76996  2326]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20857435]
+Recall [0.97067648 0.99837134]
+F-score [0.98511377 0.34506051]
+Support [79322   614]
+**************************************
+Iteration number   431
+Class weights  {0: 1, 1: 431}
+Performance on validation data - Confusion matrix
+[[76994  2328]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20843251]
+Recall [0.97065127 0.99837134]
+F-score [0.98510079 0.34486639]
+Support [79322   614]
+**************************************
+Iteration number   432
+Class weights  {0: 1, 1: 432}
+Performance on validation data - Confusion matrix
+[[76993  2329]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20836166]
+Recall [0.97063866 0.99837134]
+F-score [0.9850943 0.3447694]
+Support [79322   614]
+**************************************
+Iteration number   433
+Class weights  {0: 1, 1: 433}
+Performance on validation data - Confusion matrix
+[[76987  2335]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20793758]
+Recall [0.97056302 0.99837134]
+F-score [0.98505534 0.34418866]
+Support [79322   614]
+**************************************
+Iteration number   434
+Class weights  {0: 1, 1: 434}
+Performance on validation data - Confusion matrix
+[[76981  2341]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20751523]
+Recall [0.97048738 0.99837134]
+F-score [0.98501638 0.34360987]
+Support [79322   614]
+**************************************
+Iteration number   435
+Class weights  {0: 1, 1: 435}
+Performance on validation data - Confusion matrix
+[[76979  2343]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20737483]
+Recall [0.97046217 0.99837134]
+F-score [0.98500339 0.34341737]
+Support [79322   614]
+**************************************
+Iteration number   436
+Class weights  {0: 1, 1: 436}
+Performance on validation data - Confusion matrix
+[[76977  2345]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20723462]
+Recall [0.97043695 0.99837134]
+F-score [0.9849904  0.34322508]
+Support [79322   614]
+**************************************
+Iteration number   437
+Class weights  {0: 1, 1: 437}
+Performance on validation data - Confusion matrix
+[[76974  2348]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20702465]
+Recall [0.97039913 0.99837134]
+F-score [0.98497092 0.34293706]
+Support [79322   614]
+**************************************
+Iteration number   438
+Class weights  {0: 1, 1: 438}
+Performance on validation data - Confusion matrix
+[[76972  2350]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20688491]
+Recall [0.97037392 0.99837134]
+F-score [0.98495793 0.34274532]
+Support [79322   614]
+**************************************
+Iteration number   439
+Class weights  {0: 1, 1: 439}
+Performance on validation data - Confusion matrix
+[[76970  2352]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20674536]
+Recall [0.97034871 0.99837134]
+F-score [0.98494494 0.34255379]
+Support [79322   614]
+**************************************
+Iteration number   440
+Class weights  {0: 1, 1: 440}
+Performance on validation data - Confusion matrix
+[[76965  2357]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20639731]
+Recall [0.97028567 0.99837134]
+F-score [0.98491247 0.34207589]
+Support [79322   614]
+**************************************
+Iteration number   441
+Class weights  {0: 1, 1: 441}
+Performance on validation data - Confusion matrix
+[[76960  2362]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20605042]
+Recall [0.97022264 0.99837134]
+F-score [0.98487999 0.34159933]
+Support [79322   614]
+**************************************
+Iteration number   442
+Class weights  {0: 1, 1: 442}
+Performance on validation data - Confusion matrix
+[[76956  2366]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20577375]
+Recall [0.97017221 0.99837134]
+F-score [0.98485401 0.34121904]
+Support [79322   614]
+**************************************
+Iteration number   443
+Class weights  {0: 1, 1: 443}
+Performance on validation data - Confusion matrix
+[[76955  2367]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.2057047 ]
+Recall [0.9701596  0.99837134]
+F-score [0.98484752 0.3411241 ]
+Support [79322   614]
+**************************************
+Iteration number   444
+Class weights  {0: 1, 1: 444}
+Performance on validation data - Confusion matrix
+[[76953  2369]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998701 0.20556673]
+Recall [0.97013439 0.99837134]
+F-score [0.98483452 0.34093437]
+Support [79322   614]
+**************************************
+Iteration number   445
+Class weights  {0: 1, 1: 445}
+Performance on validation data - Confusion matrix
+[[76950  2372]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20536013]
+Recall [0.97009657 0.99837134]
+F-score [0.98481504 0.34065018]
+Support [79322   614]
+**************************************
+Iteration number   446
+Class weights  {0: 1, 1: 446}
+Performance on validation data - Confusion matrix
+[[76946  2376]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20508531]
+Recall [0.97004614 0.99837134]
+F-score [0.98478905 0.340272  ]
+Support [79322   614]
+**************************************
+Iteration number   447
+Class weights  {0: 1, 1: 447}
+Performance on validation data - Confusion matrix
+[[76943  2379]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20487968]
+Recall [0.97000832 0.99837134]
+F-score [0.98476956 0.33998891]
+Support [79322   614]
+**************************************
+Iteration number   448
+Class weights  {0: 1, 1: 448}
+Performance on validation data - Confusion matrix
+[[76942  2380]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20481123]
+Recall [0.96999571 0.99837134]
+F-score [0.98476306 0.33989465]
+Support [79322   614]
+**************************************
+Iteration number   449
+Class weights  {0: 1, 1: 449}
+Performance on validation data - Confusion matrix
+[[76941  2381]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20474282]
+Recall [0.96998311 0.99837134]
+F-score [0.98475657 0.33980044]
+Support [79322   614]
+**************************************
+Iteration number   450
+Class weights  {0: 1, 1: 450}
+Performance on validation data - Confusion matrix
+[[76935  2387]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20433333]
+Recall [0.96990747 0.99837134]
+F-score [0.98471758 0.3392363 ]
+Support [79322   614]
+**************************************
+Iteration number   451
+Class weights  {0: 1, 1: 451}
+Performance on validation data - Confusion matrix
+[[76930  2392]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20399334]
+Recall [0.96984443 0.99837134]
+F-score [0.98468509 0.33876762]
+Support [79322   614]
+**************************************
+Iteration number   452
+Class weights  {0: 1, 1: 452}
+Performance on validation data - Confusion matrix
+[[76928  2394]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20385767]
+Recall [0.96981922 0.99837134]
+F-score [0.9846721 0.3385805]
+Support [79322   614]
+**************************************
+Iteration number   453
+Class weights  {0: 1, 1: 453}
+Performance on validation data - Confusion matrix
+[[76925  2397]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20365449]
+Recall [0.9697814  0.99837134]
+F-score [0.9846526  0.33830022]
+Support [79322   614]
+**************************************
+Iteration number   454
+Class weights  {0: 1, 1: 454}
+Performance on validation data - Confusion matrix
+[[76924  2398]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20358685]
+Recall [0.96976879 0.99837134]
+F-score [0.98464611 0.3382069 ]
+Support [79322   614]
+**************************************
+Iteration number   455
+Class weights  {0: 1, 1: 455}
+Performance on validation data - Confusion matrix
+[[76921  2401]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20338421]
+Recall [0.96973097 0.99837134]
+F-score [0.98462661 0.33792723]
+Support [79322   614]
+**************************************
+Iteration number   456
+Class weights  {0: 1, 1: 456}
+Performance on validation data - Confusion matrix
+[[76921  2401]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20338421]
+Recall [0.96973097 0.99837134]
+F-score [0.98462661 0.33792723]
+Support [79322   614]
+**************************************
+Iteration number   457
+Class weights  {0: 1, 1: 457}
+Performance on validation data - Confusion matrix
+[[76916  2406]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20304737]
+Recall [0.96966794 0.99837134]
+F-score [0.98459412 0.33746215]
+Support [79322   614]
+**************************************
+Iteration number   458
+Class weights  {0: 1, 1: 458}
+Performance on validation data - Confusion matrix
+[[76912  2410]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987  0.2027787]
+Recall [0.96961751 0.99837134]
+F-score [0.98456812 0.33709101]
+Support [79322   614]
+**************************************
+Iteration number   459
+Class weights  {0: 1, 1: 459}
+Performance on validation data - Confusion matrix
+[[76905  2417]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20231023]
+Recall [0.96952926 0.99837134]
+F-score [0.98452262 0.33644347]
+Support [79322   614]
+**************************************
+Iteration number   460
+Class weights  {0: 1, 1: 460}
+Performance on validation data - Confusion matrix
+[[76905  2417]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20231023]
+Recall [0.96952926 0.99837134]
+F-score [0.98452262 0.33644347]
+Support [79322   614]
+**************************************
+Iteration number   461
+Class weights  {0: 1, 1: 461}
+Performance on validation data - Confusion matrix
+[[76902  2420]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20211012]
+Recall [0.96949144 0.99837134]
+F-score [0.98450312 0.33616671]
+Support [79322   614]
+**************************************
+Iteration number   462
+Class weights  {0: 1, 1: 462}
+Performance on validation data - Confusion matrix
+[[76900  2422]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20197694]
+Recall [0.96946623 0.99837134]
+F-score [0.98449012 0.33598246]
+Support [79322   614]
+**************************************
+Iteration number   463
+Class weights  {0: 1, 1: 463}
+Performance on validation data - Confusion matrix
+[[76893  2429]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.999987   0.20151216]
+Recall [0.96937798 0.99837134]
+F-score [0.98444462 0.33533917]
+Support [79322   614]
+**************************************
+Iteration number   464
+Class weights  {0: 1, 1: 464}
+Performance on validation data - Confusion matrix
+[[76891  2431]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.20137976]
+Recall [0.96935276 0.99837134]
+F-score [0.98443161 0.33515582]
+Support [79322   614]
+**************************************
+Iteration number   465
+Class weights  {0: 1, 1: 465}
+Performance on validation data - Confusion matrix
+[[76884  2438]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.20091773]
+Recall [0.96926452 0.99837134]
+F-score [0.9843861  0.33451569]
+Support [79322   614]
+**************************************
+Iteration number   466
+Class weights  {0: 1, 1: 466}
+Performance on validation data - Confusion matrix
+[[76880  2442]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.20065466]
+Recall [0.96921409 0.99837134]
+F-score [0.9843601  0.33415099]
+Support [79322   614]
+**************************************
+Iteration number   467
+Class weights  {0: 1, 1: 467}
+Performance on validation data - Confusion matrix
+[[76876  2446]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.20039229]
+Recall [0.96916366 0.99837134]
+F-score [0.98433409 0.3337871 ]
+Support [79322   614]
+**************************************
+Iteration number   468
+Class weights  {0: 1, 1: 468}
+Performance on validation data - Confusion matrix
+[[76873  2449]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.20019595]
+Recall [0.96912584 0.99837134]
+F-score [0.98431458 0.33351469]
+Support [79322   614]
+**************************************
+Iteration number   469
+Class weights  {0: 1, 1: 469}
+Performance on validation data - Confusion matrix
+[[76869  2453]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19993477]
+Recall [0.96907541 0.99837134]
+F-score [0.98428857 0.33315217]
+Support [79322   614]
+**************************************
+Iteration number   470
+Class weights  {0: 1, 1: 470}
+Performance on validation data - Confusion matrix
+[[76865  2457]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19967427]
+Recall [0.96902499 0.99837134]
+F-score [0.98426256 0.33279045]
+Support [79322   614]
+**************************************
+Iteration number   471
+Class weights  {0: 1, 1: 471}
+Performance on validation data - Confusion matrix
+[[76862  2460]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19947934]
+Recall [0.96898717 0.99837134]
+F-score [0.98424305 0.33251966]
+Support [79322   614]
+**************************************
+Iteration number   472
+Class weights  {0: 1, 1: 472}
+Performance on validation data - Confusion matrix
+[[76860  2462]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19934959]
+Recall [0.96896195 0.99837134]
+F-score [0.98423004 0.33233939]
+Support [79322   614]
+**************************************
+Iteration number   473
+Class weights  {0: 1, 1: 473}
+Performance on validation data - Confusion matrix
+[[76857  2465]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.1991553 ]
+Recall [0.96892413 0.99837134]
+F-score [0.98421053 0.33206934]
+Support [79322   614]
+**************************************
+Iteration number   474
+Class weights  {0: 1, 1: 474}
+Performance on validation data - Confusion matrix
+[[76853  2469]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19889682]
+Recall [0.9688737  0.99837134]
+F-score [0.98418451 0.33170996]
+Support [79322   614]
+**************************************
+Iteration number   475
+Class weights  {0: 1, 1: 475}
+Performance on validation data - Confusion matrix
+[[76848  2474]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19857467]
+Recall [0.96881067 0.99837134]
+F-score [0.98415199 0.33126182]
+Support [79322   614]
+**************************************
+Iteration number   476
+Class weights  {0: 1, 1: 476}
+Performance on validation data - Confusion matrix
+[[76843  2479]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19825356]
+Recall [0.96874764 0.99837134]
+F-score [0.98411946 0.33081489]
+Support [79322   614]
+**************************************
+Iteration number   477
+Class weights  {0: 1, 1: 477}
+Performance on validation data - Confusion matrix
+[[76838  2484]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19793348]
+Recall [0.9686846  0.99837134]
+F-score [0.98408694 0.33036917]
+Support [79322   614]
+**************************************
+Iteration number   478
+Class weights  {0: 1, 1: 478}
+Performance on validation data - Confusion matrix
+[[76838  2484]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998699 0.19793348]
+Recall [0.9686846  0.99837134]
+F-score [0.98408694 0.33036917]
+Support [79322   614]
+**************************************
+Iteration number   479
+Class weights  {0: 1, 1: 479}
+Performance on validation data - Confusion matrix
+[[76833  2489]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19761444]
+Recall [0.96862157 0.99837134]
+F-score [0.98405441 0.32992465]
+Support [79322   614]
+**************************************
+Iteration number   480
+Class weights  {0: 1, 1: 480}
+Performance on validation data - Confusion matrix
+[[76830  2492]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19742351]
+Recall [0.96858375 0.99837134]
+F-score [0.98403489 0.32965851]
+Support [79322   614]
+**************************************
+Iteration number   481
+Class weights  {0: 1, 1: 481}
+Performance on validation data - Confusion matrix
+[[76827  2495]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19723295]
+Recall [0.96854593 0.99837134]
+F-score [0.98401537 0.3293928 ]
+Support [79322   614]
+**************************************
+Iteration number   482
+Class weights  {0: 1, 1: 482}
+Performance on validation data - Confusion matrix
+[[76824  2498]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19704275]
+Recall [0.96850811 0.99837134]
+F-score [0.98399585 0.32912752]
+Support [79322   614]
+**************************************
+Iteration number   483
+Class weights  {0: 1, 1: 483}
+Performance on validation data - Confusion matrix
+[[76819  2503]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19672657]
+Recall [0.96844507 0.99837134]
+F-score [0.98396332 0.32868633]
+Support [79322   614]
+**************************************
+Iteration number   484
+Class weights  {0: 1, 1: 484}
+Performance on validation data - Confusion matrix
+[[76815  2507]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19647436]
+Recall [0.96839464 0.99837134]
+F-score [0.98393729 0.32833423]
+Support [79322   614]
+**************************************
+Iteration number   485
+Class weights  {0: 1, 1: 485}
+Performance on validation data - Confusion matrix
+[[76807  2515]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19597187]
+Recall [0.96829379 0.99837134]
+F-score [0.98388522 0.32763228]
+Support [79322   614]
+**************************************
+Iteration number   486
+Class weights  {0: 1, 1: 486}
+Performance on validation data - Confusion matrix
+[[76803  2519]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19572158]
+Recall [0.96824336 0.99837134]
+F-score [0.98385919 0.32728243]
+Support [79322   614]
+**************************************
+Iteration number   487
+Class weights  {0: 1, 1: 487}
+Performance on validation data - Confusion matrix
+[[76801  2521]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19559668]
+Recall [0.96821815 0.99837134]
+F-score [0.98384617 0.32710779]
+Support [79322   614]
+**************************************
+Iteration number   488
+Class weights  {0: 1, 1: 488}
+Performance on validation data - Confusion matrix
+[[76798  2524]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19540963]
+Recall [0.96818033 0.99837134]
+F-score [0.98382665 0.32684617]
+Support [79322   614]
+**************************************
+Iteration number   489
+Class weights  {0: 1, 1: 489}
+Performance on validation data - Confusion matrix
+[[76793  2529]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19509866]
+Recall [0.96811729 0.99837134]
+F-score [0.9837941  0.32641108]
+Support [79322   614]
+**************************************
+Iteration number   490
+Class weights  {0: 1, 1: 490}
+Performance on validation data - Confusion matrix
+[[76792  2530]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19503659]
+Recall [0.96810469 0.99837134]
+F-score [0.98378759 0.32632419]
+Support [79322   614]
+**************************************
+Iteration number   491
+Class weights  {0: 1, 1: 491}
+Performance on validation data - Confusion matrix
+[[76791  2531]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19497455]
+Recall [0.96809208 0.99837134]
+F-score [0.98378108 0.32623736]
+Support [79322   614]
+**************************************
+Iteration number   492
+Class weights  {0: 1, 1: 492}
+Performance on validation data - Confusion matrix
+[[76786  2536]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19466497]
+Recall [0.96802905 0.99837134]
+F-score [0.98374853 0.32580388]
+Support [79322   614]
+**************************************
+Iteration number   493
+Class weights  {0: 1, 1: 493}
+Performance on validation data - Confusion matrix
+[[76783  2539]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.1944797 ]
+Recall [0.96799123 0.99837134]
+F-score [0.983729   0.32554434]
+Support [79322   614]
+**************************************
+Iteration number   494
+Class weights  {0: 1, 1: 494}
+Performance on validation data - Confusion matrix
+[[76781  2541]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19435637]
+Recall [0.96796601 0.99837134]
+F-score [0.98371598 0.32537155]
+Support [79322   614]
+**************************************
+Iteration number   495
+Class weights  {0: 1, 1: 495}
+Performance on validation data - Confusion matrix
+[[76775  2547]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998698 0.19398734]
+Recall [0.96789037 0.99837134]
+F-score [0.98367692 0.32485427]
+Support [79322   614]
+**************************************
+Iteration number   496
+Class weights  {0: 1, 1: 496}
+Performance on validation data - Confusion matrix
+[[76773  2549]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19386464]
+Recall [0.96786516 0.99837134]
+F-score [0.9836639 0.3246822]
+Support [79322   614]
+**************************************
+Iteration number   497
+Class weights  {0: 1, 1: 497}
+Performance on validation data - Confusion matrix
+[[76768  2554]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19355857]
+Recall [0.96780212 0.99837134]
+F-score [0.98363134 0.32425284]
+Support [79322   614]
+**************************************
+Iteration number   498
+Class weights  {0: 1, 1: 498}
+Performance on validation data - Confusion matrix
+[[76765  2557]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19337539]
+Recall [0.9677643  0.99837134]
+F-score [0.98361181 0.32399577]
+Support [79322   614]
+**************************************
+Iteration number   499
+Class weights  {0: 1, 1: 499}
+Performance on validation data - Confusion matrix
+[[76763  2559]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19325347]
+Recall [0.96773909 0.99837134]
+F-score [0.98359879 0.32382462]
+Support [79322   614]
+**************************************
+Iteration number   500
+Class weights  {0: 1, 1: 500}
+Performance on validation data - Confusion matrix
+[[76760  2562]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19307087]
+Recall [0.96770127 0.99837134]
+F-score [0.98357925 0.32356822]
+Support [79322   614]
+**************************************
+Iteration number   501
+Class weights  {0: 1, 1: 501}
+Performance on validation data - Confusion matrix
+[[76758  2564]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19294932]
+Recall [0.96767605 0.99837134]
+F-score [0.98356623 0.32339752]
+Support [79322   614]
+**************************************
+Iteration number   502
+Class weights  {0: 1, 1: 502}
+Performance on validation data - Confusion matrix
+[[76755  2567]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.1927673 ]
+Recall [0.96763823 0.99837134]
+F-score [0.98354669 0.3231418 ]
+Support [79322   614]
+**************************************
+Iteration number   503
+Class weights  {0: 1, 1: 503}
+Performance on validation data - Confusion matrix
+[[76752  2570]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19258561]
+Recall [0.96760041 0.99837134]
+F-score [0.98352715 0.32288649]
+Support [79322   614]
+**************************************
+Iteration number   504
+Class weights  {0: 1, 1: 504}
+Performance on validation data - Confusion matrix
+[[76744  2578]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19210279]
+Recall [0.96749956 0.99837134]
+F-score [0.98347505 0.32220762]
+Support [79322   614]
+**************************************
+Iteration number   505
+Class weights  {0: 1, 1: 505}
+Performance on validation data - Confusion matrix
+[[76741  2581]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19192235]
+Recall [0.96746174 0.99837134]
+F-score [0.98345551 0.32195378]
+Support [79322   614]
+**************************************
+Iteration number   506
+Class weights  {0: 1, 1: 506}
+Performance on validation data - Confusion matrix
+[[76740  2582]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19186228]
+Recall [0.96744913 0.99837134]
+F-score [0.98344899 0.32186926]
+Support [79322   614]
+**************************************
+Iteration number   507
+Class weights  {0: 1, 1: 507}
+Performance on validation data - Confusion matrix
+[[76737  2585]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.1916823 ]
+Recall [0.96741131 0.99837134]
+F-score [0.98342945 0.32161595]
+Support [79322   614]
+**************************************
+Iteration number   508
+Class weights  {0: 1, 1: 508}
+Performance on validation data - Confusion matrix
+[[76732  2590]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19138308]
+Recall [0.96734828 0.99837134]
+F-score [0.98339688 0.32119466]
+Support [79322   614]
+**************************************
+Iteration number   509
+Class weights  {0: 1, 1: 509}
+Performance on validation data - Confusion matrix
+[[76727  2595]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19108479]
+Recall [0.96728524 0.99837134]
+F-score [0.98336431 0.32077446]
+Support [79322   614]
+**************************************
+Iteration number   510
+Class weights  {0: 1, 1: 510}
+Performance on validation data - Confusion matrix
+[[76720  2602]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19066874]
+Recall [0.96719699 0.99837134]
+F-score [0.9833187  0.32018804]
+Support [79322   614]
+**************************************
+Iteration number   511
+Class weights  {0: 1, 1: 511}
+Performance on validation data - Confusion matrix
+[[76716  2606]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998697 0.19043181]
+Recall [0.96714657 0.99837134]
+F-score [0.98329264 0.3198539 ]
+Support [79322   614]
+**************************************
+Iteration number   512
+Class weights  {0: 1, 1: 512}
+Performance on validation data - Confusion matrix
+[[76713  2609]
+ [    1   613]]
+Precision, Recall, F-score, Support  on validation data
+Precision [0.99998696 0.1902545 ]
+Recall [0.96710875 0.99837134]
+F-score [0.98327309 0.31960375]
+Support [79322   614]

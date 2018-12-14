@@ -1,0 +1,112 @@
+Number of fraudulent transactions  8213
+***********Logistic Regression**********
+**************************************
+Iteration number   0
+Class weights  {0: 1, 1: 1}
+Performance on training data - Confusion matrix
+[[4446590    1495]
+ [   1875    3874]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99957851 0.72154964]
+Recall [0.9996639  0.67385632]
+F-score [0.9996212  0.69688793]
+Support [4448085    5749]
+**************************************
+Iteration number   1
+Class weights  {0: 1, 1: 2}
+Performance on training data - Confusion matrix
+[[4417946   30139]
+ [   1043    4706]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99976397 0.13505524]
+Recall [0.99322428 0.81857714]
+F-score [0.99648339 0.23185692]
+Support [4448085    5749]
+**************************************
+Iteration number   2
+Class weights  {0: 1, 1: 4}
+Performance on training data - Confusion matrix
+[[4388972   59113]
+ [    881    4868]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99979931 0.07608509]
+Recall [0.98671046 0.84675596]
+F-score [0.99321177 0.13962427]
+Support [4448085    5749]
+**************************************
+Iteration number   3
+Class weights  {0: 1, 1: 8}
+Performance on training data - Confusion matrix
+[[4344357  103728]
+ [    708    5041]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99983706 0.04634593]
+Recall [0.9766803  0.87684815]
+F-score [0.98812303 0.08803856]
+Support [4448085    5749]
+**************************************
+Iteration number   4
+Class weights  {0: 1, 1: 16}
+Performance on training data - Confusion matrix
+[[4277387  170698]
+ [    584    5165]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99986349 0.02936945]
+Recall [0.96162438 0.89841712]
+F-score [0.9803712 0.0568795]
+Support [4448085    5749]
+**************************************
+Iteration number   5
+Class weights  {0: 1, 1: 32}
+Performance on training data - Confusion matrix
+[[4437951   10134]
+ [   1625    4124]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99963397 0.28924113]
+Recall [0.99772172 0.71734215]
+F-score [0.99867693 0.41225571]
+Support [4448085    5749]
+**************************************
+Iteration number   6
+Class weights  {0: 1, 1: 64}
+Performance on training data - Confusion matrix
+[[4430151   17934]
+ [   1566    4183]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99964664 0.18913053]
+Recall [0.99596815 0.7276048 ]
+F-score [0.99780401 0.30022249]
+Support [4448085    5749]
+**************************************
+Iteration number   7
+Class weights  {0: 1, 1: 128}
+Performance on training data - Confusion matrix
+[[4400682   47403]
+ [   1072    4677]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99975646 0.08980415]
+Recall [0.98934305 0.81353279]
+F-score [0.9945225  0.16175275]
+Support [4448085    5749]
+**************************************
+Iteration number   8
+Class weights  {0: 1, 1: 256}
+Performance on training data - Confusion matrix
+[[4334423  113662]
+ [    723    5026]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99983322 0.04234632]
+Recall [0.97444698 0.874239  ]
+F-score [0.98697689 0.08077983]
+Support [4448085    5749]
+**************************************
+Iteration number   9
+Class weights  {0: 1, 1: 512}
+Performance on training data - Confusion matrix
+[[4323643  124442]
+ [    933    4816]]
+Precision, Recall, F-score, Support  on training data
+Precision [0.99978426 0.03725882]
+Recall [0.97202347 0.83771091]
+F-score [0.98570844 0.07134445]
+Support [4448085    5749]

@@ -1,0 +1,36 @@
+Number of fraudulent transactions  4097
+**************** Logistic Regression Test *******************
+Class weights  {0: 1, 1: 70}
+Performance on validation data - Confusion matrix
+[[78547   775]
+ [    1   613]]
+Precision, Recall, F-score, Support on validation data
+Precision [0.99998727 0.44164265]
+Recall [0.9902297  0.99837134]
+F-score [0.99508456 0.61238761]
+Support [79322   614]
+**************** SVM Test *******************
+Class weights  {0: 1, 1: 39}
+Performance on validation data - Confusion matrix
+[[78552   770]
+ [    1   613]]
+Precision, Recall, F-score, Support on validation data
+Precision [0.99998727 0.44323933]
+Recall [0.99029273 0.99837134]
+F-score [0.99511639 0.61392088]
+Support [79322   614]
+**************** Kernel SVM Test *******************
+Class weights  {0: 1, 1: 16}
+Performance on validation data - Confusion matrix
+[[78893   429]
+ [    4   610]]
+Precision, Recall, F-score, Support on validation data
+Precision [0.9999493  0.58710298]
+Recall [0.99459166 0.99348534]
+F-score [0.99726329 0.73805203]
+Support [79322   614]
+************* Precision Recall metrics on validation data *************
+Logistic Regression - Area under PRC 0.924770042000579
+Linear SVM - Area under PRC 0.916088853769132
+SVM with RBF kernel - Area under PRC 0.985507963203541
+*********************************************************************

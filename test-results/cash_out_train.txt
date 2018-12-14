@@ -1,0 +1,39 @@
+Number of fraudulent transactions  4116
+**************** Logistic Regression Test *******************
+Class weights  {0: 1, 1: 145}
+Performance on train data - Confusion matrix
+[[1547791   15578]
+ [     44    2837]]
+Precision, Recall, F-score, Support on Train data
+Precision [0.99997157 0.15405919]
+Recall [0.99003562 0.98472753]
+F-score [0.99497879 0.26643501]
+Support [1563369    2881]
+**************** SVM Test *******************
+Class weights  {0: 1, 1: 132}
+Performance on train data - Confusion matrix
+[[1544419   18950]
+ [    184    2697]]
+Precision, Recall, F-score, Support on Train data
+Precision [0.99988088 0.12459001]
+Recall [0.98787874 0.93613329]
+F-score [0.99384357 0.21991194]
+Support [1563369    2881]
+**************** Kernel SVM Test *******************
+Class weights  {0: 1, 1: 128}
+Performance on train data - Confusion matrix
+[[1545219   18150]
+ [     36    2845]]
+Precision, Recall, F-score, Support on Train data
+Precision [0.9999767  0.13550845]
+Recall [0.98839046 0.98750434]
+F-score [0.99414982 0.23831463]
+Support [1563369    2881]
+************* Precision Recall metrics on train data *************
+Logistic Regression - Area under PRC 0.7564
+Linear SVM - Area under PRC 0.7063
+RBF Precision  [0.00219409 0.00219333 0.00219334 ... 0.5        0.         1.        ]
+RBF Recall  [1.00000000e+00 9.99652898e-01 9.99652898e-01 ... 3.47101701e-04
+ 0.00000000e+00 0.00000000e+00]
+SVM with RBF kernel - Area under PRC 0.763
+*********************************************************************
