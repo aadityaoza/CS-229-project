@@ -1,16 +1,26 @@
+"""
+Splits an input CSV into separate CSV files by transaction type.
+Run: python3 syn_cc.py syn.csv output_dir
+"""
+
 import numpy as np
 import math
 import pandas as pd
 import csv
 import os
+import sys
 
-def syn_cc(filename  = 'syn.csv'):
-    f = open('syn.csv')
+def syn_cc(filename  = 'syn.csv', out_dir = ''):
+    f = open(filename)
     # read first line
     header = f.readline()
     types = set(['CASH_OUT', 'TRANSFER', 'PAYMENT', 'CASH_IN', 'DEBIT'])
 
-    path = ''
+    path = out_dir
+    if out_dir != '' and not os.path.exists(out_dir):
+        os.makedirs(out_dir)
+    if path != '' and not path.endswith('/'):
+        path = path + '/'
     cash_out_data = path + 'cash_out.csv'
     transfer_data = path + 'transfer.csv'
     payment_data = path + 'payment.csv'
@@ -60,10 +70,5 @@ def syn_cc(filename  = 'syn.csv'):
     ci = open(cash_in_data,'r')
     db = open(debit_data,'r')
 
-    print(len(co.readlines()))
-    print(len(tr.readlines()))
-    print(len(py.readlines()))
-    print(len(ci.readlines()))
-    print(len(db.readlines()))
+syn_cc(sys.argv[1] if len(sys.argv) > 1 else 'syn.csv', sys.argv[2] if len(sys.argv) > 2 else '')
 
-syn_cc()
