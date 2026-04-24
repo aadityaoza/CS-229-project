@@ -21,6 +21,9 @@ from sklearn.decomposition import PCA
 def compute_pca(plt):
    filename = sys.argv[1]
    base = os.path.splitext(os.path.basename(filename))[0]
+   # PaySim CSV header:
+   # usecols indices [2,4,5,7,8,9] correspond to:
+   # amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest, isFraud
    df = pd.read_csv(filename, usecols = [2,4,5,7,8,9] , header = 0,
    	names = ['Amount','Source-OB','Source-NB','Dest-OB','Dest-NB','target'])
    
