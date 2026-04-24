@@ -64,11 +64,5 @@ def syn_cc(filename  = 'syn.csv', out_dir = ''):
     db.close()
     f.close()
 
-    co = open(cash_out_data,'r') 
-    tr = open(transfer_data,'r')
-    py = open(payment_data,'r')
-    ci = open(cash_in_data,'r')
-    db = open(debit_data,'r')
-
 syn_cc(sys.argv[1] if len(sys.argv) > 1 else 'syn.csv', sys.argv[2] if len(sys.argv) > 2 else '')
 
