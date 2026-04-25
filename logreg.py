@@ -29,8 +29,14 @@ n_estimators = 10
 def logreg(x,y,filename):
 
    # Model output file name
-   file = (os.path.splitext(filename))[0]
-   fname = './models/lr_' + file +'/'
+   file = os.path.splitext(os.path.basename(filename))[0]
+   
+   if not os.path.exists('./models'):
+       os.makedirs('./models')
+   if not os.path.exists('./prf'):
+       os.makedirs('./prf')
+
+   fname = './models/lr_' + file +'_'
 
    # File for writing precision,recall, f-measure scores for fraud transactions
    f = open('./prf/lr_'+ file + '_prf' +'.txt' ,'w')
@@ -84,6 +90,9 @@ def logreg(x,y,filename):
 
 def run():
    filename = sys.argv[1]
+   # PaySim CSV header:
+   # usecols indices [2,4,5,7,8,9] correspond to:
+   # amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest, isFraud
    df = pd.read_csv(filename, usecols = [2,4,5,7,8,9] , header = 0,
    	names = ['Amount','Source-OB','Source-NB','Dest-OB','Dest-NB','target'])
    
@@ -97,6 +106,7 @@ def run():
    x = df.loc[:, features].values
    y = df.loc[:, targets].values
 
+   # Convert 2D array to 1D array
    y  = [i for j in y for i in j]
    
    #Ignore warnings
