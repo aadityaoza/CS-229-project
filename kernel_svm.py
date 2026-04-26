@@ -3,6 +3,18 @@ import pandas as pd
 import csv
 import sys
 import os
+import argparse
+
+# Run (default fast sweep: 10 iters, cw[1]=2**it):
+#   python3 kernel_svm.py data/transfer.csv
+# Deep sweep (analogous to other *-deep scripts: cw[1]=it, it=1..512):
+#   python3 kernel_svm.py data/transfer.csv --sweep linear --max-iters 513
+# Single weight (replaces kernel_svm_model.py):
+#   python3 kernel_svm.py data/transfer.csv --weight 32
+#
+# Outputs:
+#   ./prf/kernel_svm_<dataset>_prf.txt
+#   ./models/kernel_svm_<dataset>_<classweight>.sav
 
 from sys import platform as sys_pf
 if sys_pf == 'darwin':
@@ -23,14 +35,31 @@ from sklearn.ensemble import BaggingClassifier
 import warnings
 import pickle
 
-max_iters = 10
 n_estimators = 10
 
-def svm(x,y,filename):
+def iter_class_weights(sweep, start_it, max_iters):
+   it = start_it
+   while it < max_iters:
+       cw = {}
+       cw[0] = 1
+       if sweep == 'linear':
+           cw[1] = it
+       else:
+           cw[1] = 2 ** it
+       yield it, cw
+       it += 1
+
+def svm(x,y,filename,sweep='exp',start_it=0,max_iters=10,weight=None):
 
    # Model output file name
-   file = (os.path.splitext(filename))[0]
-   fname = './models/kernel_svm_' + file +'/'
+   file = os.path.splitext(os.path.basename(filename))[0]
+
+   if not os.path.exists('./models'):
+       os.makedirs('./models')
+   if not os.path.exists('./prf'):
+       os.makedirs('./prf')
+
+   fname = './models/kernel_svm_' + file +'_'
 
    # File for writing precision,recall, f-measure scores for fraud transactions
    f = open('./prf/kernel_svm_'+ file + '_prf' +'.txt' ,'w')
@@ -46,17 +75,14 @@ def svm(x,y,filename):
    # Create 15% validation set and 15% test set split
    X_val, X_test, y_val, y_test = train_test_split(X_test, y_test,stratify=y_test , test_size=0.50, random_state=42)
 
-   #Iterations
-   it = 0
-   
    # Run training algorithm for multiple class weights
-   while it < max_iters:
+   if weight is not None:
        cw = {}
        cw[0] = 1
-       cw[1] = 2 ** it
+       cw[1] = weight
        # Train
        print('**************************************')
-       print("Iteration number  " , it)
+       print("Iteration number  " , 0)
        svm = SVC(class_weight = cw,tol=1e-03,cache_size = 1000)
        print('Class weights ', cw)
        svm.fit(X_train,y_train)
@@ -82,13 +108,49 @@ def svm(x,y,filename):
        f1 = fscore[1]
 
        f.write(str(p1) +','+ str(r1) + ',' + str(f1) + '\n')
+   else:
+       for it, cw in iter_class_weights(sweep, start_it, max_iters):
+           # Train
+           print('**************************************')
+           print("Iteration number  " , it)
+           svm = SVC(class_weight = cw,tol=1e-03,cache_size = 1000)
+           print('Class weights ', cw)
+           svm.fit(X_train,y_train)
 
-       it += 1
+           # Save trained model to disk
+           name = fname + str(cw[1]) + '.sav'
+           pickle.dump(svm, open(name, 'wb'))
+
+           #Predict on validation data
+           y_val_pred = svm.predict(X_val)
+           print('Performance on validation data - Confusion matrix')
+           print(confusion_matrix(y_val,y_val_pred))
+       
+           precision,recall,fscore,support=score(y_val,y_val_pred,average=None)
+           print('Precision, Recall, F-score, Support on validation data' )
+           print("Precision" , precision)
+           print("Recall" , recall)
+           print("F-score" , fscore)
+           print("Support" , support)
+
+           p1 = precision[1]
+           r1 = recall[1]
+           f1 = fscore[1]
+
+           f.write(str(p1) +','+ str(r1) + ',' + str(f1) + '\n')
        
    f.close()    
 
 def run():
-   filename = sys.argv[1]
+   parser = argparse.ArgumentParser()
+   parser.add_argument('csv_file')
+   parser.add_argument('--sweep', choices=['exp','linear'], default='exp')
+   parser.add_argument('--max-iters', type=int, default=None)
+   parser.add_argument('--start-it', type=int, default=None)
+   parser.add_argument('--weight', type=int, default=None)
+   args = parser.parse_args()
+
+   filename = args.csv_file
    df = pd.read_csv(filename, usecols = [2,4,5,7,8,9] , header = 0,
       names = ['Amount','Source-OB','Source-NB','Dest-OB','Dest-NB','target'])
    
@@ -108,6 +170,12 @@ def run():
    warnings.filterwarnings("ignore", category=FutureWarning)
 
    print("**************** SVM *******************")
-   svm(x,y,filename)
+   max_iters = args.max_iters
+   start_it = args.start_it
+   if max_iters is None:
+       max_iters = 513 if args.sweep == 'linear' else 10
+   if start_it is None:
+       start_it = 1 if args.sweep == 'linear' else 0
+   svm(x,y,filename,args.sweep,start_it,max_iters,args.weight)
   
 run()

@@ -3,6 +3,16 @@ import pandas as pd
 import csv
 import sys
 import os
+import argparse
+
+# Run (default fast sweep: 10 iters, cw[1]=2**it):
+#   python3 logreg.py data/transfer.csv
+# Deep sweep (old logreg-deep.py behavior: cw[1]=it, it=1..512):
+#   python3 logreg.py data/transfer.csv --sweep linear --max-iters 513
+#
+# Outputs:
+#   ./prf/lr_<dataset>_prf.txt
+#   ./models/lr_<dataset>_<classweight>.sav
 
 from sys import platform as sys_pf
 if sys_pf == 'darwin':
@@ -23,14 +33,31 @@ from sklearn.ensemble import BaggingClassifier
 import warnings
 import pickle
 
-max_iters = 10
 n_estimators = 10
 
-def logreg(x,y,filename):
+def iter_class_weights(sweep, start_it, max_iters):
+   it = start_it
+   while it < max_iters:
+       cw = {}
+       cw[0] = 1
+       if sweep == 'linear':
+           cw[1] = it
+       else:
+           cw[1] = 2 ** it
+       yield it, cw
+       it += 1
+
+def logreg(x,y,filename,sweep='exp',start_it=0,max_iters=10):
 
    # Model output file name
-   file = (os.path.splitext(filename))[0]
-   fname = './models/lr_' + file +'/'
+   file = os.path.splitext(os.path.basename(filename))[0]
+   
+   if not os.path.exists('./models'):
+       os.makedirs('./models')
+   if not os.path.exists('./prf'):
+       os.makedirs('./prf')
+
+   fname = './models/lr_' + file +'_'
 
    # File for writing precision,recall, f-measure scores for fraud transactions
    f = open('./prf/lr_'+ file + '_prf' +'.txt' ,'w')
@@ -42,14 +69,8 @@ def logreg(x,y,filename):
    # Create 15% validation set and 15% test set split
    X_val, X_test, y_val, y_test = train_test_split(X_test, y_test,stratify=y_test , test_size=0.50, random_state=42)
    
-   #Iterations
-   it = 0
-   
    # Run training algorithm for multiple class weights
-   while it < max_iters:
-       cw = {}
-       cw[0] = 1
-       cw[1] = 2 ** it
+   for it, cw in iter_class_weights(sweep, start_it, max_iters):
        # Train
        print('**************************************')
        print("Iteration number  " , it)
@@ -83,7 +104,17 @@ def logreg(x,y,filename):
    f.close()
 
 def run():
-   filename = sys.argv[1]
+   parser = argparse.ArgumentParser()
+   parser.add_argument('csv_file')
+   parser.add_argument('--sweep', choices=['exp','linear'], default='exp')
+   parser.add_argument('--max-iters', type=int, default=None)
+   parser.add_argument('--start-it', type=int, default=None)
+   args = parser.parse_args()
+
+   filename = args.csv_file
+   # PaySim CSV header:
+   # usecols indices [2,4,5,7,8,9] correspond to:
+   # amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest, isFraud
    df = pd.read_csv(filename, usecols = [2,4,5,7,8,9] , header = 0,
    	names = ['Amount','Source-OB','Source-NB','Dest-OB','Dest-NB','target'])
    
@@ -97,12 +128,19 @@ def run():
    x = df.loc[:, features].values
    y = df.loc[:, targets].values
 
+   # Convert 2D array to 1D array
    y  = [i for j in y for i in j]
    
    #Ignore warnings
    warnings.filterwarnings("ignore", category=FutureWarning)
 
    print("***********Logistic Regression**********")
-   logreg(x,y,filename)
+   max_iters = args.max_iters
+   start_it = args.start_it
+   if max_iters is None:
+       max_iters = 513 if args.sweep == 'linear' else 10
+   if start_it is None:
+       start_it = 1 if args.sweep == 'linear' else 0
+   logreg(x,y,filename,args.sweep,start_it,max_iters)
   
 run()

@@ -2,6 +2,12 @@ import numpy as np
 import pandas as pd
 import csv
 import sys
+import os
+
+# Run:
+#   python3 pca.py path/to/transactions.csv
+# Output:
+#   Saves PCA scatter plot to ./pca_results/<csv_basename>.png
 
 from sys import platform as sys_pf
 if sys_pf == 'darwin':
@@ -12,8 +18,12 @@ if sys_pf == 'darwin':
 from sklearn import preprocessing
 from sklearn.decomposition import PCA
 
-def analyze(plt):
+def compute_pca(plt):
    filename = sys.argv[1]
+   base = os.path.splitext(os.path.basename(filename))[0]
+   # PaySim CSV header:
+   # usecols indices [2,4,5,7,8,9] correspond to:
+   # amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest, isFraud
    df = pd.read_csv(filename, usecols = [2,4,5,7,8,9] , header = 0,
    	names = ['Amount','Source-OB','Source-NB','Dest-OB','Dest-NB','target'])
    
@@ -54,7 +64,7 @@ def analyze(plt):
         i += 1
    
    plt.clf()
-   plt.title('PCA for ' + filename[:-4] + ' transactions')
+   plt.title('PCA for ' + base + ' transactions')
    plt.xlabel('PC 1')
    plt.ylabel('PC 2 ')
    plt.grid(True)
@@ -67,10 +77,12 @@ def analyze(plt):
    	   x1,x2 = zip(*fr)
    	   plt.scatter(x1, x2,color = 'r' , marker = 'x' , label = 'Fraud txn')
 
-   fig = filename[:-4]
+   fig = base
    plt.legend()
-   plt.savefig('./' + fig +'.png')
+   if not os.path.exists('pca_results'):
+       os.makedirs('pca_results')
+   plt.savefig('./pca_results/' + fig +'.png')
 
 
 
-analyze(plt)
+compute_pca(plt)
