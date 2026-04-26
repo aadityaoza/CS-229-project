@@ -3,9 +3,9 @@ This page documents steps on how to run python scripts related to my CS 229 proj
 
 1) Create a conda environment using project.yml
 2) Download 'PaySim dataset' - https://www.kaggle.com/ntnu-testimon/paysim1 and save the csv as 'all.csv' file.
-3) Run 'python syn_cc.py all.csv' - This script takes in entire PaySim dataset and creates different csv files for each transaction type - transfer.csv, cash_out.csv, cash_in.csv, debit.csv,payment.csv
-4) Run 'python pca.py transfer.csv' - This script takes transfer.csv, performs PCA on it in 2d and plots the result in transfer.png file. These results are present in pca-results. It can also be run with 
-5) Run 'python logreg-deep.py transfer.csv' - This file takes in transfer dataset, and runs logistic regression for 512 different class weight combinations. At each iteration, it computes precision,recall and f1-measure and writes it to a file in prf/ folder. Same experiment can be repeated with 'cash_out.csv' as well.
+3) Run `python3 data-extraction.py all.csv [output_dir]` - This script takes in the entire PaySim dataset and creates different csv files for each transaction type: `transfer.csv`, `cash_out.csv`, `cash_in.csv`, `debit.csv`, `payment.csv`. If `output_dir` is provided and doesn't exist, it will be created.
+4) Run `python3 pca.py <path/to>/transfer.csv` - This script takes `transfer.csv`, performs PCA in 2D and saves the plot to `./pca_results/transfer.png` (it creates `pca_results/` if needed). If the CSV path includes directories, only the basename is used for the plot title and png name.
+5) Run `python3 logreg.py <path/to>/transfer.csv` - This file takes in transfer dataset and runs logistic regression with a fast class-weight sweep (10 iterations, `cw[1]=2**it`). It writes precision/recall/f1 per iteration to `./prf/lr_transfer_prf.txt` and saves models to `./models/lr_transfer_<classweight>.sav`. For the deep sweep (old `logreg-deep.py` behavior), run `python3 logreg.py <path/to>/transfer.csv --sweep linear --max-iters 513`.
 6) Run 'python svm-deep.py transfer.csv' . Same experiment can be repeated with 'cash_out.csv' as well.
 7) Run 'python kernel_svm.py transfer.csv'. Same experiment can be repeated with 'cash_out.csv' as well.
 
