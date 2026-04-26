@@ -5,6 +5,15 @@ import sys
 import os
 import argparse
 
+# Run (default fast sweep: 10 iters, cw[1]=2**it):
+#   python3 logreg.py data/transfer.csv
+# Deep sweep (old logreg-deep.py behavior: cw[1]=it, it=1..512):
+#   python3 logreg.py data/transfer.csv --sweep linear --max-iters 513
+#
+# Outputs:
+#   ./prf/lr_<dataset>_prf.txt
+#   ./models/lr_<dataset>_<classweight>.sav
+
 from sys import platform as sys_pf
 if sys_pf == 'darwin':
     import matplotlib
